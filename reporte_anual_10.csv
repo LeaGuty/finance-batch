@@ -1,0 +1,777 @@
+CUENTA_ID,FECHA,ESTADO,DESCRIPCION
+104,2024/03/22,CARGADO,Compra en tienda
+106,25-11-2024,CARGADO,Retiro parcial
+101,2024/04/30,CARGADO,Ingreso navideño
+103,2024-05-09,CARGADO,Ingreso de fin de año
+110,02-01-2024,CARGADO,Retiro parcial
+110,2024/08/28,CARGADO,
+107,23/08/2024,CARGADO,
+105,26-03-2024,CARGADO,
+113,2024-07-27,CARGADO,Ingreso mensual
+104,11/03/2024,CARGADO,Ingreso extra
+111,2024/09/25,CARGADO,Retiro parcial
+106,2024/08/10,CARGADO,
+106,2024/09/13,CARGADO,Retiro parcial
+118,05/08/2024,CARGADO,Compra en tienda
+108,07/08/2024,CARGADO,Ingreso extra
+107,08-07-2024,CARGADO,Ingreso extra
+113,2024/08/10,CARGADO,Compra en tienda
+106,13-05-2024,CARGADO,
+111,2024/02/04,CARGADO,
+116,24-12-2024,CARGADO,Ingreso de fin de año
+106,2024-06-22,CARGADO,Compra en tienda
+108,2024/01/21,CARGADO,Ingreso navideño
+105,2024-11-02,CARGADO,Ingreso mensual
+106,2024-12-29,CARGADO,
+106,06-03-2024,CARGADO,Ingreso de fin de año
+112,14/07/2024,CARGADO,Retiro parcial
+118,22-02-2024,CARGADO,Ingreso navideño
+109,2024-05-31,CARGADO,Ingreso de fin de año
+114,2024/10/09,CARGADO,Ingreso navideño
+109,09-08-2024,CARGADO,Compra en tienda
+107,2024-12-10,CARGADO,Ingreso extra
+109,06/01/2024,CARGADO,Ingreso navideño
+113,22-10-2024,CARGADO,Retiro parcial
+113,12-02-2024,CARGADO,
+110,2024/04/22,CARGADO,Ingreso mensual
+117,12/01/2024,CARGADO,Ingreso extra
+119,2024/07/21,CARGADO,Ingreso de fin de año
+116,13/05/2024,CARGADO,Ingreso de fin de año
+103,04/11/2024,CARGADO,Ingreso extra
+119,24/05/2024,CARGADO,Ingreso de fin de año
+119,2024-06-18,CARGADO,Ingreso mensual
+106,2024/04/12,CARGADO,Ingreso de fin de año
+109,2024-04-19,CARGADO,Ingreso navideño
+119,19/02/2024,CARGADO,Retiro parcial
+101,05/11/2024,CARGADO,
+119,2024/06/08,CARGADO,Retiro parcial
+115,2024-03-28,CARGADO,Compra en tienda
+108,2024/01/24,ERROR_DATOS,Ingreso extra
+110,09/11/2024,CARGADO,Ingreso navideño
+115,25-02-2024,CARGADO,Compra en tienda
+101,2024-06-29,CARGADO,Ingreso navideño
+108,2024-04-21,CARGADO,
+120,09/01/2024,CARGADO,
+107,04/01/2024,CARGADO,Retiro parcial
+106,2024/10/24,CARGADO,Retiro parcial
+107,2024/06/14,CARGADO,Ingreso mensual
+109,11/02/2024,CARGADO,Ingreso de fin de año
+103,2024/06/01,CARGADO,
+101,2024-02-06,CARGADO,Retiro parcial
+119,2024/08/24,CARGADO,Compra en tienda
+110,2024-04-10,CARGADO,Compra en tienda
+103,22/10/2024,CARGADO,Ingreso mensual
+111,25-08-2024,CARGADO,Compra en tienda
+103,2024/07/01,CARGADO,Ingreso de fin de año
+108,07-09-2024,CARGADO,
+107,12/07/2024,CARGADO,Ingreso navideño
+118,2024/03/03,CARGADO,Retiro parcial
+120,11/09/2024,CARGADO,Compra en tienda
+120,21-09-2024,CARGADO,Compra en tienda
+107,2024-10-18,CARGADO,Compra en tienda
+115,2024-03-20,CARGADO,Ingreso navideño
+110,2024/09/02,CARGADO,Ingreso mensual
+106,14/04/2024,CARGADO,Compra en tienda
+106,2024/12/05,CARGADO,Ingreso mensual
+119,05-06-2024,CARGADO,Retiro parcial
+102,2024-05-18,CARGADO,
+117,30-07-2024,CARGADO,
+119,2024/12/12,CARGADO,Ingreso mensual
+107,2024/02/17,ERROR_DATOS,Compra en tienda
+106,22/10/2024,CARGADO,Compra en tienda
+117,07/02/2024,CARGADO,Ingreso de fin de año
+105,2024-12-28,CARGADO,Ingreso de fin de año
+104,2024/02/20,CARGADO,Compra en tienda
+117,2024-01-09,CARGADO,Compra en tienda
+116,18/03/2024,CARGADO,Retiro parcial
+107,2024-04-20,CARGADO,
+102,2024/05/08,CARGADO,Retiro parcial
+102,30/11/2024,CARGADO,Retiro parcial
+105,07/09/2024,CARGADO,Compra en tienda
+114,24-06-2024,CARGADO,Compra en tienda
+108,2024/02/08,CARGADO,Ingreso extra
+103,20/03/2024,CARGADO,
+110,28/12/2024,CARGADO,
+108,29-10-2024,CARGADO,Ingreso navideño
+114,2024-06-12,CARGADO,Retiro parcial
+107,2024/02/08,CARGADO,Ingreso extra
+116,2024-07-17,CARGADO,Retiro parcial
+111,2024-10-26,CARGADO,Ingreso de fin de año
+113,2024/09/30,CARGADO,Ingreso navideño
+108,27/08/2024,CARGADO,Ingreso navideño
+119,2024/03/09,CARGADO,Ingreso de fin de año
+107,2024/06/10,CARGADO,Ingreso navideño
+113,04/11/2024,CARGADO,Retiro parcial
+118,06/04/2024,CARGADO,Ingreso mensual
+110,2024/08/07,CARGADO,Ingreso extra
+120,26/08/2024,CARGADO,Ingreso mensual
+116,2024-08-07,CARGADO,Retiro parcial
+114,2024/12/10,CARGADO,
+103,2024/04/14,CARGADO,Retiro parcial
+115,2024-04-26,CARGADO,
+105,04/01/2024,CARGADO,Compra en tienda
+113,2024-10-18,CARGADO,
+107,2024-05-11,CARGADO,Retiro parcial
+108,10/02/2024,CARGADO,Ingreso navideño
+111,30/01/2024,CARGADO,Ingreso de fin de año
+107,2024/08/09,CARGADO,
+112,2024/10/03,CARGADO,Compra en tienda
+120,10/04/2024,ERROR_DATOS,Ingreso extra
+101,09/05/2024,CARGADO,Ingreso extra
+114,2024-03-12,CARGADO,Ingreso navideño
+112,10/03/2024,CARGADO,Ingreso extra
+118,01/12/2024,CARGADO,Ingreso de fin de año
+102,26-02-2024,CARGADO,
+111,14-10-2024,CARGADO,Retiro parcial
+104,2024-03-11,CARGADO,Ingreso navideño
+110,2024-10-22,CARGADO,
+114,2024-11-02,CARGADO,Retiro parcial
+114,2024/01/12,CARGADO,Ingreso extra
+111,28/01/2024,CARGADO,Ingreso mensual
+109,2024-03-02,CARGADO,Ingreso mensual
+119,2024-03-08,CARGADO,Compra en tienda
+120,2024/02/02,CARGADO,Retiro parcial
+113,03-12-2024,CARGADO,Retiro parcial
+101,2024/12/19,CARGADO,Retiro parcial
+111,21/02/2024,CARGADO,Retiro parcial
+103,14/10/2024,CARGADO,Ingreso mensual
+111,26-09-2024,CARGADO,Ingreso mensual
+111,2024-09-22,CARGADO,Ingreso extra
+101,2024/05/18,CARGADO,
+116,12/12/2024,ERROR_DATOS,
+108,2024/03/22,CARGADO,Compra en tienda
+101,2024/02/07,CARGADO,
+110,04/06/2024,CARGADO,
+101,2024/06/28,CARGADO,
+106,2024/01/15,CARGADO,Compra en tienda
+114,2024/02/23,CARGADO,
+117,15/04/2024,CARGADO,
+107,23/12/2024,CARGADO,Ingreso navideño
+114,29/11/2024,CARGADO,
+118,10-07-2024,CARGADO,Ingreso extra
+114,2024/02/03,CARGADO,Ingreso navideño
+105,05/02/2024,CARGADO,Ingreso de fin de año
+116,06-08-2024,CARGADO,
+112,2024-01-11,CARGADO,Ingreso extra
+103,19-11-2024,CARGADO,Ingreso navideño
+104,24/10/2024,CARGADO,Ingreso navideño
+101,09/02/2024,CARGADO,Retiro parcial
+116,29-12-2024,CARGADO,Compra en tienda
+102,07/01/2024,CARGADO,Retiro parcial
+102,08-09-2024,CARGADO,Ingreso de fin de año
+103,2024-06-29,CARGADO,Retiro parcial
+112,2024-09-12,CARGADO,
+101,28/04/2024,CARGADO,Ingreso de fin de año
+118,21/09/2024,CARGADO,Ingreso de fin de año
+106,22-07-2024,CARGADO,Ingreso navideño
+115,2024-07-05,CARGADO,Compra en tienda
+116,2024/04/11,CARGADO,Retiro parcial
+118,2024-10-06,CARGADO,Ingreso extra
+120,2024/06/09,CARGADO,Compra en tienda
+101,28/11/2024,CARGADO,Ingreso de fin de año
+111,19-05-2024,CARGADO,Compra en tienda
+101,2024-10-29,CARGADO,Ingreso navideño
+111,11-09-2024,CARGADO,
+103,2024/04/16,CARGADO,Compra en tienda
+119,20/04/2024,CARGADO,
+105,2024/01/08,CARGADO,Compra en tienda
+101,03-02-2024,CARGADO,Ingreso mensual
+111,2024-03-23,CARGADO,Ingreso de fin de año
+108,24/10/2024,CARGADO,
+117,13/06/2024,CARGADO,Ingreso extra
+104,22/05/2024,CARGADO,
+110,2024/07/17,CARGADO,Ingreso extra
+107,04/12/2024,CARGADO,Retiro parcial
+117,2024/05/22,CARGADO,Compra en tienda
+108,30-12-2024,ERROR_DATOS,Retiro parcial
+113,2024-12-24,CARGADO,Ingreso navideño
+120,28-02-2024,CARGADO,Ingreso mensual
+120,25/05/2024,CARGADO,Ingreso mensual
+110,26-04-2024,CARGADO,Ingreso mensual
+120,25-04-2024,CARGADO,Ingreso mensual
+103,2024-05-13,CARGADO,Retiro parcial
+117,2024-03-15,CARGADO,Compra en tienda
+107,2024-12-07,CARGADO,Retiro parcial
+104,2024/08/07,CARGADO,Ingreso extra
+112,08/11/2024,CARGADO,Ingreso navideño
+104,2024/02/10,CARGADO,Compra en tienda
+101,19/06/2024,CARGADO,Ingreso mensual
+112,2024-06-21,CARGADO,
+109,2024-03-20,CARGADO,Ingreso mensual
+119,2024/02/20,CARGADO,
+110,16-07-2024,CARGADO,Ingreso de fin de año
+112,13/05/2024,CARGADO,Compra en tienda
+112,2024-09-15,CARGADO,Ingreso navideño
+114,16-06-2024,ERROR_DATOS,Ingreso extra
+120,30/04/2024,CARGADO,Ingreso mensual
+115,2024-11-27,CARGADO,Ingreso navideño
+111,2024-02-06,CARGADO,Retiro parcial
+115,02/04/2024,CARGADO,Ingreso navideño
+119,06-01-2024,CARGADO,Ingreso de fin de año
+116,18/10/2024,CARGADO,Compra en tienda
+103,20/04/2024,CARGADO,Ingreso de fin de año
+118,13-04-2024,CARGADO,Ingreso extra
+116,2024-10-16,CARGADO,
+101,2024/02/25,CARGADO,Retiro parcial
+104,2024/09/02,CARGADO,Ingreso extra
+115,09/03/2024,ERROR_DATOS,
+110,13/06/2024,CARGADO,Compra en tienda
+103,28-09-2024,CARGADO,Ingreso mensual
+102,2024/12/20,CARGADO,Ingreso mensual
+101,12-02-2024,CARGADO,Retiro parcial
+115,23/06/2024,CARGADO,
+117,2024-04-15,CARGADO,
+109,03-09-2024,CARGADO,Ingreso extra
+107,2024/08/18,CARGADO,Ingreso de fin de año
+107,2024/09/06,CARGADO,Ingreso extra
+102,2024/02/10,CARGADO,Ingreso extra
+105,14-09-2024,CARGADO,Ingreso de fin de año
+102,2024/07/01,CARGADO,Ingreso extra
+116,14-06-2024,CARGADO,Ingreso extra
+109,2024/04/16,CARGADO,
+117,2024/03/19,CARGADO,Retiro parcial
+104,2024/06/14,CARGADO,
+117,2024/10/10,ERROR_DATOS,
+109,23/11/2024,CARGADO,Ingreso extra
+113,12-05-2024,CARGADO,Ingreso navideño
+108,2024-10-01,CARGADO,Retiro parcial
+103,2024/01/02,ERROR_DATOS,Ingreso mensual
+118,2024/02/08,CARGADO,Ingreso navideño
+119,2024-06-06,CARGADO,Ingreso mensual
+109,2024-01-23,CARGADO,Compra en tienda
+102,10/03/2024,CARGADO,Retiro parcial
+101,2024/03/15,CARGADO,Ingreso extra
+109,2024-05-11,CARGADO,Ingreso de fin de año
+115,30-09-2024,CARGADO,Ingreso extra
+110,01-12-2024,CARGADO,Ingreso de fin de año
+112,26-03-2024,CARGADO,Compra en tienda
+111,2024/08/12,CARGADO,Ingreso de fin de año
+112,25-08-2024,ERROR_DATOS,Ingreso extra
+115,25-12-2024,CARGADO,Retiro parcial
+109,2024/12/28,CARGADO,Ingreso extra
+105,2024/10/02,CARGADO,Ingreso mensual
+118,2024-03-18,CARGADO,Ingreso de fin de año
+105,21/02/2024,CARGADO,Ingreso mensual
+111,02/04/2024,CARGADO,Ingreso de fin de año
+117,26/08/2024,CARGADO,Ingreso mensual
+111,2024/02/07,CARGADO,Retiro parcial
+107,2024-11-10,CARGADO,
+101,2024-10-19,CARGADO,Ingreso navideño
+105,2024/10/17,CARGADO,
+114,2024/10/26,CARGADO,Ingreso extra
+117,30-01-2024,CARGADO,Ingreso navideño
+113,2024/10/10,CARGADO,Ingreso navideño
+119,2024/01/07,CARGADO,Ingreso de fin de año
+102,14-11-2024,CARGADO,
+110,19/10/2024,CARGADO,Ingreso de fin de año
+114,03/07/2024,CARGADO,Ingreso navideño
+113,2024-02-02,CARGADO,
+110,2024-03-16,CARGADO,Retiro parcial
+110,02/03/2024,CARGADO,
+104,26-03-2024,CARGADO,Compra en tienda
+113,2024/08/10,CARGADO,Compra en tienda
+109,04-11-2024,CARGADO,Ingreso navideño
+109,2024-10-31,CARGADO,Ingreso navideño
+118,2024/11/26,CARGADO,Ingreso mensual
+101,2024-02-15,CARGADO,Ingreso de fin de año
+101,12/05/2024,CARGADO,
+109,24-07-2024,ERROR_DATOS,Compra en tienda
+108,2024/07/08,CARGADO,Ingreso de fin de año
+108,2024/05/04,CARGADO,Retiro parcial
+109,2024/08/12,CARGADO,Ingreso mensual
+116,22-12-2024,CARGADO,Ingreso de fin de año
+104,07/03/2024,CARGADO,Ingreso de fin de año
+106,31-08-2024,CARGADO,
+112,08/06/2024,CARGADO,Compra en tienda
+106,2024/04/11,CARGADO,Ingreso navideño
+116,2024-08-23,CARGADO,Retiro parcial
+120,07/09/2024,CARGADO,Ingreso navideño
+117,2024-10-25,CARGADO,
+110,12-01-2024,CARGADO,Ingreso de fin de año
+109,2024-04-04,CARGADO,
+104,2024/06/28,CARGADO,Ingreso mensual
+113,29/04/2024,CARGADO,Retiro parcial
+114,2024/12/28,CARGADO,Ingreso mensual
+118,2024/09/18,CARGADO,Compra en tienda
+101,2024/02/03,CARGADO,Compra en tienda
+114,2024/02/23,CARGADO,Retiro parcial
+101,2024-04-16,CARGADO,
+108,2024-05-02,CARGADO,Ingreso extra
+104,09/01/2024,CARGADO,
+101,2024-05-03,CARGADO,Retiro parcial
+112,15-05-2024,CARGADO,Ingreso de fin de año
+119,2024/05/19,CARGADO,Ingreso de fin de año
+116,17-02-2024,CARGADO,Retiro parcial
+117,17-11-2024,CARGADO,
+112,18-10-2024,CARGADO,Retiro parcial
+106,24-06-2024,CARGADO,Ingreso navideño
+109,15/12/2024,CARGADO,Ingreso extra
+106,2024/06/22,CARGADO,Ingreso mensual
+112,2024/04/29,CARGADO,Retiro parcial
+103,01/10/2024,CARGADO,Retiro parcial
+110,30/03/2024,CARGADO,Ingreso de fin de año
+109,2024-10-31,CARGADO,Retiro parcial
+103,09/07/2024,CARGADO,Ingreso navideño
+103,2024/12/23,CARGADO,Compra en tienda
+108,28/11/2024,CARGADO,Ingreso de fin de año
+111,2024/07/31,CARGADO,Compra en tienda
+117,2024-03-22,CARGADO,Ingreso mensual
+102,13/10/2024,CARGADO,Compra en tienda
+114,20/12/2024,CARGADO,Retiro parcial
+117,29/04/2024,CARGADO,Ingreso de fin de año
+103,12-05-2024,CARGADO,Ingreso navideño
+108,13-02-2024,CARGADO,Ingreso de fin de año
+109,2024-05-13,CARGADO,Ingreso navideño
+118,29-03-2024,ERROR_DATOS,Ingreso extra
+112,11/03/2024,CARGADO,
+102,2024-01-25,CARGADO,Ingreso de fin de año
+106,01-08-2024,CARGADO,
+120,25-09-2024,CARGADO,Ingreso de fin de año
+108,2024-01-19,ERROR_DATOS,Ingreso mensual
+106,2024/09/30,CARGADO,Compra en tienda
+110,10/02/2024,CARGADO,Ingreso navideño
+103,27/05/2024,CARGADO,Compra en tienda
+112,21/05/2024,CARGADO,Ingreso mensual
+103,24/12/2024,ERROR_DATOS,
+103,25-08-2024,CARGADO,
+108,11/07/2024,CARGADO,Ingreso mensual
+114,11/10/2024,CARGADO,Ingreso navideño
+111,21-08-2024,CARGADO,Ingreso mensual
+117,2024/10/19,CARGADO,Ingreso de fin de año
+113,04/02/2024,CARGADO,Ingreso navideño
+117,2024-01-04,CARGADO,Ingreso de fin de año
+110,02-04-2024,CARGADO,Retiro parcial
+107,2024/11/21,CARGADO,
+116,2024-12-24,CARGADO,Ingreso mensual
+117,2024/08/20,CARGADO,
+103,29/11/2024,CARGADO,Ingreso extra
+101,05/10/2024,CARGADO,Ingreso de fin de año
+104,2024-09-25,CARGADO,
+114,19/02/2024,CARGADO,
+114,2024/12/25,CARGADO,Ingreso extra
+112,23-02-2024,CARGADO,Ingreso mensual
+110,30/06/2024,CARGADO,Retiro parcial
+115,25/09/2024,CARGADO,Ingreso mensual
+104,2024-07-30,CARGADO,Retiro parcial
+107,2024-08-31,ERROR_DATOS,
+103,2024/10/15,ERROR_DATOS,Retiro parcial
+109,28/07/2024,CARGADO,Retiro parcial
+119,2024-03-07,CARGADO,Ingreso mensual
+118,2024/03/01,CARGADO,Retiro parcial
+120,2024/02/13,CARGADO,
+113,2024/07/31,CARGADO,Ingreso de fin de año
+103,2024-04-10,CARGADO,
+114,2024/05/19,CARGADO,Ingreso de fin de año
+103,29/07/2024,CARGADO,
+106,2024/03/05,CARGADO,
+114,2024-08-30,CARGADO,Ingreso extra
+109,2024/04/15,CARGADO,
+101,2024/02/01,CARGADO,
+117,2024-10-14,CARGADO,Ingreso mensual
+113,30-06-2024,CARGADO,Ingreso mensual
+111,25/10/2024,CARGADO,Ingreso mensual
+117,2024/10/16,CARGADO,Ingreso extra
+107,2024/03/03,CARGADO,Compra en tienda
+117,2024/09/14,CARGADO,Retiro parcial
+118,2024-10-13,CARGADO,Retiro parcial
+105,2024/02/15,CARGADO,Retiro parcial
+108,05/10/2024,CARGADO,Retiro parcial
+117,29-08-2024,CARGADO,Compra en tienda
+103,07-07-2024,CARGADO,Retiro parcial
+110,2024/09/18,CARGADO,Ingreso de fin de año
+119,23-03-2024,CARGADO,
+115,2024-12-08,CARGADO,Ingreso mensual
+107,07/02/2024,CARGADO,
+105,2024/03/13,CARGADO,Ingreso de fin de año
+116,2024/06/17,CARGADO,Ingreso mensual
+108,2024/09/14,CARGADO,Ingreso de fin de año
+120,2024/05/01,CARGADO,Ingreso extra
+114,2024-03-30,CARGADO,Ingreso de fin de año
+104,2024-01-30,CARGADO,Retiro parcial
+103,18-03-2024,CARGADO,Ingreso navideño
+105,2024/04/05,CARGADO,Ingreso navideño
+101,24-03-2024,CARGADO,Retiro parcial
+109,02-06-2024,CARGADO,Ingreso extra
+106,24-12-2024,CARGADO,Compra en tienda
+110,2024/12/10,ERROR_DATOS,Retiro parcial
+116,03/07/2024,ERROR_DATOS,
+111,2024-08-01,CARGADO,Ingreso extra
+112,15/02/2024,CARGADO,Ingreso navideño
+114,2024/09/10,CARGADO,Ingreso extra
+113,26/10/2024,CARGADO,Retiro parcial
+114,06/05/2024,CARGADO,Ingreso mensual
+117,06/06/2024,CARGADO,Ingreso extra
+110,31/03/2024,CARGADO,
+115,12/08/2024,CARGADO,Compra en tienda
+109,25-02-2024,CARGADO,Ingreso de fin de año
+104,28-10-2024,CARGADO,Ingreso de fin de año
+102,02/08/2024,CARGADO,
+111,2024-08-16,CARGADO,
+110,2024/02/04,CARGADO,Compra en tienda
+107,2024/12/07,CARGADO,Ingreso extra
+113,30-04-2024,CARGADO,Compra en tienda
+101,30/06/2024,CARGADO,Ingreso navideño
+109,11-05-2024,CARGADO,Retiro parcial
+113,2024-07-20,CARGADO,Ingreso navideño
+108,2024-01-19,CARGADO,
+105,2024-01-22,CARGADO,Ingreso navideño
+108,25/02/2024,CARGADO,Ingreso mensual
+107,02-09-2024,CARGADO,
+119,20-01-2024,CARGADO,Ingreso mensual
+117,25-03-2024,CARGADO,Ingreso extra
+112,2024-10-06,CARGADO,Compra en tienda
+120,06-02-2024,CARGADO,Ingreso navideño
+102,2024-10-14,CARGADO,Ingreso extra
+110,18/06/2024,CARGADO,Ingreso de fin de año
+114,2024-12-28,CARGADO,Ingreso navideño
+107,2024/01/15,CARGADO,Ingreso de fin de año
+119,30-12-2024,CARGADO,Compra en tienda
+114,02-03-2024,CARGADO,Ingreso navideño
+111,27-05-2024,CARGADO,Ingreso de fin de año
+113,28/06/2024,CARGADO,Ingreso extra
+111,2024/06/11,CARGADO,
+110,02-03-2024,CARGADO,Ingreso navideño
+108,15/03/2024,ERROR_DATOS,Ingreso extra
+112,2024/11/07,CARGADO,Ingreso extra
+117,2024/01/31,CARGADO,
+106,02-10-2024,ERROR_DATOS,
+113,2024-08-16,CARGADO,Compra en tienda
+118,2024-08-10,CARGADO,Compra en tienda
+116,2024/04/02,CARGADO,Compra en tienda
+109,22-09-2024,CARGADO,
+101,2024/03/27,CARGADO,Ingreso navideño
+105,2024/07/07,CARGADO,Ingreso extra
+119,2024/07/08,CARGADO,Retiro parcial
+109,08/08/2024,CARGADO,Ingreso mensual
+108,2024/05/13,CARGADO,
+116,10/03/2024,CARGADO,Ingreso extra
+103,2024-07-05,CARGADO,Ingreso mensual
+106,2024/04/03,CARGADO,
+116,10-06-2024,CARGADO,Ingreso extra
+108,16-12-2024,CARGADO,Compra en tienda
+101,31-01-2024,CARGADO,Ingreso navideño
+103,2024-07-12,CARGADO,Ingreso mensual
+101,04/02/2024,CARGADO,Ingreso mensual
+103,2024-10-07,CARGADO,Ingreso de fin de año
+109,2024-01-09,CARGADO,Ingreso navideño
+114,22-08-2024,CARGADO,Ingreso de fin de año
+115,27-08-2024,CARGADO,Ingreso mensual
+105,2024/10/06,CARGADO,Ingreso extra
+102,02-06-2024,CARGADO,Ingreso mensual
+117,24-04-2024,CARGADO,Ingreso mensual
+103,03/08/2024,CARGADO,Ingreso de fin de año
+107,2024-04-30,CARGADO,Ingreso mensual
+114,2024-09-21,CARGADO,Retiro parcial
+116,20-12-2024,CARGADO,Ingreso mensual
+110,2024-06-18,CARGADO,
+119,26/01/2024,CARGADO,
+103,2024/01/27,CARGADO,Ingreso de fin de año
+120,2024/09/17,ERROR_DATOS,Ingreso de fin de año
+104,01-02-2024,CARGADO,
+116,2024-05-20,CARGADO,Ingreso de fin de año
+113,19-03-2024,CARGADO,Ingreso navideño
+103,2024/08/01,CARGADO,
+120,22/10/2024,CARGADO,Compra en tienda
+119,01/10/2024,CARGADO,
+109,2024/01/07,CARGADO,Compra en tienda
+119,10-05-2024,CARGADO,Compra en tienda
+113,2024-05-27,CARGADO,Ingreso navideño
+110,2024/06/17,CARGADO,
+110,19-02-2024,CARGADO,Ingreso navideño
+112,27/04/2024,CARGADO,Ingreso navideño
+108,2024-05-23,CARGADO,Retiro parcial
+118,17/12/2024,CARGADO,Ingreso extra
+118,20/09/2024,CARGADO,Retiro parcial
+119,2024-10-22,CARGADO,Ingreso extra
+118,18/10/2024,CARGADO,Compra en tienda
+107,2024/04/12,CARGADO,Ingreso extra
+120,2024-01-24,CARGADO,Ingreso de fin de año
+113,01-04-2024,CARGADO,Ingreso de fin de año
+101,30/03/2024,CARGADO,Ingreso extra
+112,11-11-2024,CARGADO,Ingreso de fin de año
+115,2024-02-09,CARGADO,Ingreso extra
+109,2024-02-03,CARGADO,Retiro parcial
+104,2024-04-29,ERROR_DATOS,
+110,2024/10/04,CARGADO,Ingreso de fin de año
+107,2024/11/12,CARGADO,Ingreso navideño
+104,2024-06-12,CARGADO,Ingreso extra
+115,2024/07/11,CARGADO,
+107,09-06-2024,CARGADO,Compra en tienda
+105,17-02-2024,CARGADO,Ingreso mensual
+101,2024-02-25,CARGADO,
+102,2024-05-09,CARGADO,
+109,2024/02/12,CARGADO,
+111,2024/01/16,CARGADO,Ingreso de fin de año
+102,2024/02/05,CARGADO,
+111,2024-09-12,CARGADO,Ingreso de fin de año
+113,09-01-2024,CARGADO,Ingreso navideño
+101,24-03-2024,CARGADO,Ingreso navideño
+120,05-08-2024,CARGADO,Ingreso extra
+104,2024-02-20,CARGADO,Ingreso extra
+116,2024/11/28,CARGADO,Ingreso extra
+112,11-06-2024,CARGADO,Ingreso navideño
+115,2024-10-13,CARGADO,Ingreso de fin de año
+108,2024-12-25,CARGADO,
+108,05/06/2024,CARGADO,
+114,28/11/2024,CARGADO,
+109,2024/02/17,CARGADO,Compra en tienda
+120,2024-11-12,CARGADO,Ingreso extra
+109,18/04/2024,CARGADO,
+102,28-04-2024,CARGADO,Ingreso mensual
+105,12-04-2024,CARGADO,Ingreso navideño
+101,27/08/2024,CARGADO,Ingreso mensual
+107,2024/04/29,CARGADO,Ingreso mensual
+113,28-01-2024,CARGADO,Ingreso de fin de año
+120,2024/04/22,CARGADO,Compra en tienda
+107,2024-10-13,CARGADO,Ingreso extra
+106,2024-04-12,CARGADO,Retiro parcial
+119,2024/06/14,CARGADO,Compra en tienda
+116,06-04-2024,CARGADO,Retiro parcial
+115,2024/04/01,CARGADO,
+103,20-07-2024,CARGADO,Compra en tienda
+117,2024-12-11,CARGADO,Ingreso navideño
+118,05-04-2024,CARGADO,Ingreso extra
+118,2024/04/18,CARGADO,
+105,2024/08/30,CARGADO,Ingreso navideño
+106,2024/02/26,CARGADO,
+115,2024-11-07,CARGADO,Retiro parcial
+118,28/08/2024,CARGADO,Ingreso extra
+115,29/10/2024,CARGADO,Retiro parcial
+118,13-08-2024,CARGADO,Compra en tienda
+102,2024/04/04,ERROR_DATOS,Compra en tienda
+118,2024/12/16,CARGADO,Ingreso extra
+120,2024/06/20,ERROR_DATOS,Compra en tienda
+101,09-09-2024,CARGADO,Ingreso de fin de año
+107,21/11/2024,CARGADO,Ingreso de fin de año
+112,2024-11-28,CARGADO,Ingreso extra
+104,23-03-2024,ERROR_DATOS,Retiro parcial
+101,30-06-2024,CARGADO,
+106,2024/04/09,CARGADO,Compra en tienda
+104,2024-11-23,CARGADO,Ingreso mensual
+120,2024-08-28,CARGADO,Ingreso mensual
+119,2024/01/07,CARGADO,
+120,04-11-2024,CARGADO,
+111,2024-12-10,CARGADO,Ingreso extra
+106,29-10-2024,CARGADO,
+116,18-06-2024,CARGADO,Ingreso extra
+109,17-09-2024,CARGADO,Ingreso navideño
+111,2024/05/31,CARGADO,Ingreso extra
+116,12-01-2024,ERROR_DATOS,Compra en tienda
+114,2024-05-07,CARGADO,
+119,17/12/2024,CARGADO,Ingreso extra
+116,18-01-2024,CARGADO,Compra en tienda
+113,2024/12/29,CARGADO,Ingreso extra
+111,03-05-2024,CARGADO,Retiro parcial
+111,11-08-2024,CARGADO,Ingreso navideño
+108,2024/10/28,CARGADO,Ingreso extra
+108,2024-07-25,CARGADO,Ingreso de fin de año
+111,2024-08-07,CARGADO,
+117,2024/01/30,CARGADO,Ingreso navideño
+108,11-07-2024,CARGADO,
+107,2024/02/03,CARGADO,Ingreso extra
+102,25/03/2024,CARGADO,Ingreso navideño
+107,2024/01/11,CARGADO,Retiro parcial
+104,2024/12/05,CARGADO,Ingreso mensual
+107,2024/07/02,CARGADO,Ingreso extra
+108,2024-08-25,CARGADO,Retiro parcial
+119,2024/05/30,CARGADO,
+118,09-01-2024,CARGADO,
+113,2024/09/02,CARGADO,Ingreso extra
+111,2024-06-25,CARGADO,Ingreso extra
+106,2024/02/29,CARGADO,
+103,11/09/2024,CARGADO,Ingreso mensual
+112,12-04-2024,CARGADO,Compra en tienda
+119,20/04/2024,CARGADO,Retiro parcial
+118,03-10-2024,ERROR_DATOS,Ingreso de fin de año
+109,12-01-2024,CARGADO,Retiro parcial
+104,05/01/2024,ERROR_DATOS,Compra en tienda
+115,2024/11/15,CARGADO,Compra en tienda
+102,2024/12/08,CARGADO,Ingreso navideño
+112,09/10/2024,CARGADO,Ingreso extra
+106,2024/05/25,CARGADO,
+104,2024-10-10,CARGADO,Ingreso extra
+113,2024/11/15,CARGADO,
+118,2024-10-13,CARGADO,Ingreso mensual
+111,2024-01-07,CARGADO,Ingreso mensual
+101,05/03/2024,CARGADO,Retiro parcial
+111,2024-04-12,CARGADO,Ingreso mensual
+118,20/01/2024,CARGADO,
+107,10-01-2024,CARGADO,
+118,2024-11-16,CARGADO,
+110,2024-01-29,CARGADO,Retiro parcial
+117,15/05/2024,ERROR_DATOS,Retiro parcial
+119,23/11/2024,CARGADO,Compra en tienda
+110,2024/10/27,CARGADO,Retiro parcial
+115,2024/04/09,CARGADO,Retiro parcial
+102,2024/10/30,CARGADO,Ingreso de fin de año
+103,13/09/2024,CARGADO,Ingreso extra
+111,2024/01/29,CARGADO,Compra en tienda
+115,16-04-2024,CARGADO,Ingreso de fin de año
+110,2024/10/06,CARGADO,Ingreso extra
+103,20-09-2024,CARGADO,Retiro parcial
+116,2024-07-05,CARGADO,Compra en tienda
+103,2024/10/24,CARGADO,
+120,2024/06/03,CARGADO,Ingreso mensual
+101,2024-07-18,CARGADO,Ingreso extra
+108,16-03-2024,CARGADO,Ingreso de fin de año
+116,27/12/2024,CARGADO,Ingreso navideño
+113,2024-12-11,CARGADO,Ingreso mensual
+109,2024/08/09,CARGADO,Ingreso navideño
+116,30/04/2024,CARGADO,Retiro parcial
+104,2024/02/26,CARGADO,Retiro parcial
+119,27-01-2024,CARGADO,Ingreso navideño
+118,28/04/2024,CARGADO,Compra en tienda
+111,22/12/2024,CARGADO,Ingreso extra
+105,28/01/2024,CARGADO,Ingreso navideño
+106,28-08-2024,CARGADO,Ingreso extra
+103,25-03-2024,ERROR_DATOS,Ingreso navideño
+108,2024-01-12,CARGADO,Compra en tienda
+114,26/10/2024,CARGADO,Ingreso mensual
+105,06/04/2024,CARGADO,Ingreso navideño
+113,29/05/2024,CARGADO,
+104,31-01-2024,CARGADO,Ingreso extra
+116,2024/08/26,CARGADO,Ingreso extra
+110,30/06/2024,CARGADO,Ingreso extra
+109,27/03/2024,CARGADO,
+102,29/02/2024,CARGADO,Retiro parcial
+102,29-02-2024,CARGADO,Ingreso mensual
+113,2024/09/27,CARGADO,Compra en tienda
+107,09/02/2024,CARGADO,Retiro parcial
+119,2024-12-05,CARGADO,Retiro parcial
+101,2024-05-04,ERROR_DATOS,Ingreso de fin de año
+105,2024/06/30,CARGADO,Ingreso de fin de año
+105,29/02/2024,CARGADO,Ingreso de fin de año
+116,2024-04-10,CARGADO,Ingreso extra
+116,26-12-2024,ERROR_DATOS,Ingreso navideño
+118,2024-05-05,CARGADO,Compra en tienda
+112,02-09-2024,CARGADO,
+119,2024/01/22,CARGADO,Ingreso de fin de año
+110,18-09-2024,CARGADO,Compra en tienda
+108,2024-01-24,CARGADO,Compra en tienda
+114,2024-08-26,CARGADO,Compra en tienda
+105,2024/08/31,CARGADO,Compra en tienda
+115,12-12-2024,CARGADO,Ingreso navideño
+109,2024-04-23,CARGADO,Retiro parcial
+102,2024/10/13,CARGADO,Ingreso extra
+105,23/02/2024,CARGADO,Ingreso extra
+104,22-11-2024,CARGADO,Retiro parcial
+107,06/09/2024,CARGADO,
+111,30-12-2024,CARGADO,Ingreso de fin de año
+117,2024-09-25,CARGADO,Retiro parcial
+117,29/04/2024,CARGADO,Ingreso de fin de año
+101,17/06/2024,CARGADO,Ingreso navideño
+115,2024-01-03,CARGADO,Ingreso navideño
+104,2024-04-06,CARGADO,Ingreso navideño
+104,2024/04/02,CARGADO,
+103,2024/03/02,CARGADO,Retiro parcial
+116,2024/07/08,CARGADO,Retiro parcial
+111,2024/04/14,CARGADO,Ingreso extra
+114,2024/11/12,CARGADO,Ingreso mensual
+105,2024/08/13,CARGADO,Ingreso extra
+103,08-12-2024,CARGADO,Ingreso de fin de año
+103,12/02/2024,CARGADO,Ingreso extra
+120,13-03-2024,CARGADO,Retiro parcial
+115,23-02-2024,CARGADO,Compra en tienda
+103,15-05-2024,CARGADO,Compra en tienda
+110,2024-08-07,CARGADO,Retiro parcial
+102,08/01/2024,CARGADO,Ingreso extra
+115,2024-10-19,CARGADO,Retiro parcial
+104,09/08/2024,CARGADO,Ingreso extra
+107,20-01-2024,CARGADO,Ingreso extra
+108,08/07/2024,CARGADO,
+117,24/11/2024,ERROR_DATOS,Ingreso extra
+111,25-06-2024,CARGADO,Ingreso navideño
+112,2024/03/21,CARGADO,Compra en tienda
+112,2024-05-11,CARGADO,Compra en tienda
+110,28/06/2024,CARGADO,Ingreso mensual
+119,2024/12/19,CARGADO,Ingreso extra
+105,18-03-2024,CARGADO,Ingreso mensual
+119,12/04/2024,CARGADO,Compra en tienda
+107,2024/10/19,CARGADO,Compra en tienda
+110,26-01-2024,CARGADO,Compra en tienda
+103,2024-10-19,CARGADO,
+107,12/12/2024,CARGADO,Ingreso mensual
+107,08/05/2024,CARGADO,Ingreso navideño
+108,09-09-2024,CARGADO,Ingreso de fin de año
+120,2024-03-15,CARGADO,Ingreso navideño
+119,26-06-2024,CARGADO,Ingreso extra
+120,12-03-2024,CARGADO,Ingreso de fin de año
+111,2024-06-24,CARGADO,Ingreso navideño
+114,04/02/2024,CARGADO,Ingreso extra
+109,22-04-2024,CARGADO,Ingreso mensual
+105,16/05/2024,CARGADO,Ingreso navideño
+102,30/06/2024,CARGADO,
+105,11/04/2024,CARGADO,Ingreso mensual
+110,2024-02-17,CARGADO,Compra en tienda
+102,28-03-2024,CARGADO,Ingreso navideño
+105,29/06/2024,CARGADO,Retiro parcial
+104,28-10-2024,CARGADO,Ingreso navideño
+104,2024-04-10,CARGADO,Ingreso de fin de año
+109,19-03-2024,CARGADO,
+105,2024-01-15,CARGADO,Retiro parcial
+120,2024/12/09,CARGADO,Retiro parcial
+106,2024-11-10,CARGADO,
+110,2024/12/02,CARGADO,Retiro parcial
+119,27/02/2024,CARGADO,Compra en tienda
+116,2024-01-08,CARGADO,Ingreso navideño
+106,2024/07/04,CARGADO,Ingreso de fin de año
+108,2024/04/22,CARGADO,Ingreso mensual
+107,22/06/2024,CARGADO,Ingreso mensual
+110,10/08/2024,CARGADO,Ingreso de fin de año
+113,2024-11-29,CARGADO,
+110,29/01/2024,CARGADO,Ingreso de fin de año
+112,08/11/2024,CARGADO,Ingreso mensual
+117,2024/07/31,CARGADO,Ingreso navideño
+110,14-06-2024,CARGADO,Retiro parcial
+119,06/02/2024,ERROR_DATOS,Ingreso de fin de año
+101,2024-09-05,CARGADO,Ingreso navideño
+118,2024-02-21,CARGADO,Ingreso extra
+107,2024-09-01,CARGADO,Ingreso extra
+118,15-10-2024,CARGADO,Ingreso extra
+119,06/01/2024,CARGADO,Retiro parcial
+116,26-01-2024,CARGADO,Retiro parcial
+114,13-01-2024,CARGADO,Retiro parcial
+108,2024/01/26,CARGADO,Ingreso de fin de año
+105,2024-04-10,CARGADO,Retiro parcial
+107,24-11-2024,CARGADO,Ingreso mensual
+108,2024/03/20,CARGADO,Compra en tienda
+114,2024/12/19,CARGADO,Ingreso de fin de año
+113,2024/05/07,CARGADO,
+116,2024-02-05,CARGADO,Ingreso navideño
+102,2024/09/10,CARGADO,Compra en tienda
+117,14/01/2024,ERROR_DATOS,
+110,22/06/2024,CARGADO,
+117,2024-12-03,CARGADO,Ingreso de fin de año
+102,15/09/2024,CARGADO,Retiro parcial
+115,2024-07-02,CARGADO,
+105,2024-07-23,CARGADO,Ingreso de fin de año
+114,2024-06-28,CARGADO,Retiro parcial
+107,2024-10-09,ERROR_DATOS,Ingreso navideño
+103,2024-12-24,CARGADO,Ingreso de fin de año
+114,20-03-2024,CARGADO,
+118,28-03-2024,CARGADO,Ingreso navideño
+108,2024-02-06,CARGADO,Compra en tienda
+110,15/09/2024,CARGADO,Retiro parcial
+109,2024/04/06,CARGADO,Ingreso extra
+119,2024-12-18,ERROR_DATOS,
+112,24-01-2024,CARGADO,Compra en tienda
+110,24-07-2024,CARGADO,
+111,23/12/2024,CARGADO,Ingreso mensual
+119,14/03/2024,CARGADO,Ingreso de fin de año
+105,16-12-2024,CARGADO,Ingreso de fin de año
+105,2024/09/13,CARGADO,Retiro parcial
+115,2024/01/02,CARGADO,Ingreso de fin de año
+113,2024/02/06,CARGADO,Ingreso de fin de año
+104,27/03/2024,CARGADO,
+114,2024/01/23,CARGADO,Compra en tienda
+114,03/07/2024,CARGADO,Ingreso de fin de año
+102,10-01-2024,CARGADO,Ingreso mensual
+113,2024/05/12,CARGADO,Retiro parcial
+110,12-11-2024,CARGADO,
+117,29-07-2024,CARGADO,Retiro parcial
+107,19/07/2024,CARGADO,Ingreso extra
+118,2024-09-30,CARGADO,Retiro parcial
+101,2024/02/15,CARGADO,Ingreso de fin de año
+108,19-06-2024,ERROR_DATOS,Ingreso de fin de año
+101,2024-10-28,CARGADO,Ingreso navideño
+112,28/01/2024,CARGADO,
