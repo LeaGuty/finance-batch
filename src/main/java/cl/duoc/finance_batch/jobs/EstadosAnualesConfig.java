@@ -1,9 +1,11 @@
 package cl.duoc.finance_batch.jobs;
 
+import java.io.InputStreamReader;
+import java.io.LineNumberReader;
 import java.util.HashMap;
 import java.util.Map;
-import java.io.LineNumberReader;
-import java.io.InputStreamReader;
+
+import javax.sql.DataSource;
 
 import org.springframework.batch.core.ItemProcessListener;
 import org.springframework.batch.core.Job;
@@ -19,9 +21,14 @@ import org.springframework.batch.core.step.builder.StepBuilder;
 import org.springframework.batch.item.ExecutionContext;
 import org.springframework.batch.item.data.RepositoryItemWriter;
 import org.springframework.batch.item.data.builder.RepositoryItemWriterBuilder;
+import org.springframework.batch.item.database.JdbcCursorItemReader;
+import org.springframework.batch.item.database.builder.JdbcCursorItemReaderBuilder;
+import org.springframework.batch.item.file.FlatFileItemWriter;
+import org.springframework.batch.item.file.builder.FlatFileItemWriterBuilder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.FileSystemResource;
 import org.springframework.core.task.SimpleAsyncTaskExecutor;
 import org.springframework.core.task.TaskExecutor;
 import org.springframework.transaction.PlatformTransactionManager;
@@ -29,6 +36,7 @@ import org.springframework.transaction.PlatformTransactionManager;
 import cl.duoc.finance_batch.advanced.EstadoAuditListener;
 import cl.duoc.finance_batch.business.EstadoFinanciero;
 import cl.duoc.finance_batch.business.EstadoFinancieroDTO;
+import cl.duoc.finance_batch.business.ResumenAnualDTO;
 import cl.duoc.finance_batch.items.EstadoFinancieroProcessor;
 import cl.duoc.finance_batch.items.PartitionedEstadoFinancieroReader;
 import cl.duoc.finance_batch.repository.EstadoFinancieroRepository;
@@ -157,12 +165,59 @@ public class EstadosAnualesConfig {
                 .build();
     }
 
-    // 8. JOB FINAL
+ 
+    // 9. READER para el Informe: Agrupa datos por cuenta desde la DB
     @Bean
-    public Job estadosAnualesJob(JobRepository jobRepository, Step masterStep) {
+    public JdbcCursorItemReader<ResumenAnualDTO> readerInforme(DataSource dataSource) {
+        return new JdbcCursorItemReaderBuilder<ResumenAnualDTO>()
+                .name("readerInforme")
+                .dataSource(dataSource)
+                .sql("SELECT cuenta_id, SUM(monto) as total, COUNT(*) as cantidad " +
+                     "FROM estados_financieros GROUP BY cuenta_id")
+                .rowMapper((rs, rowNum) -> new ResumenAnualDTO(
+                        rs.getLong("cuenta_id"),
+                        rs.getDouble("total"),
+                        rs.getLong("cantidad"),
+                        "Informe Anual de Auditoría - Generado exitosamente"
+                ))
+                .build();
+    }
+
+    // 10. WRITER para el Informe: Genera el archivo físico
+    @Bean
+    public FlatFileItemWriter<ResumenAnualDTO> writerInforme() {
+        return new FlatFileItemWriterBuilder<ResumenAnualDTO>()
+                .name("writerInforme")
+                .resource(new FileSystemResource("outputs/reporte_auditoria_anual.csv"))
+                .delimited()
+                .delimiter(",")
+                .names("cuentaId", "totalMonto", "cantidadTransacciones", "detalleAuditoria")
+                .headerCallback(writer -> writer.write("ID_CUENTA,TOTAL_ANUAL,TOTAL_TXS,ESTADO_AUDITORIA"))
+                .build();
+    }
+
+    // 11. STEP de Generación de Informe
+    @Bean
+    public Step generarReporteStep(JobRepository jobRepository, 
+                                   PlatformTransactionManager transactionManager,
+                                   JdbcCursorItemReader<ResumenAnualDTO> readerInforme,
+                                   FlatFileItemWriter<ResumenAnualDTO> writerInforme) {
+        return new StepBuilder("generarReporteStep", jobRepository)
+                .<ResumenAnualDTO, ResumenAnualDTO>chunk(100, transactionManager)
+                .reader(readerInforme)
+                .writer(writerInforme)
+                .build();
+    }
+
+    // 12. JOB FINAL ACTUALIZADO
+    @Bean
+    public Job estadosAnualesJob(JobRepository jobRepository, 
+                                 Step masterStep, 
+                                 Step generarReporteStep) {
         return new JobBuilder("estadosAnualesJob", jobRepository)
                 .incrementer(new RunIdIncrementer())
-                .start(masterStep)
+                .start(masterStep)          // Primero carga y procesa los CSV en paralelo
+                .next(generarReporteStep)   // Luego compila el informe de auditoría
                 .build();
     }
 }
