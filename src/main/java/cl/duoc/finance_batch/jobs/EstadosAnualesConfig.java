@@ -166,7 +166,7 @@ public class EstadosAnualesConfig {
     }
 
  
-    // 9. READER para el Informe: Agrupa datos por cuenta desde la DB
+    // 8. READER para el Informe: Agrupa datos por cuenta desde la DB
     @Bean
     public JdbcCursorItemReader<ResumenAnualDTO> readerInforme(DataSource dataSource) {
         return new JdbcCursorItemReaderBuilder<ResumenAnualDTO>()
@@ -183,7 +183,7 @@ public class EstadosAnualesConfig {
                 .build();
     }
 
-    // 10. WRITER para el Informe: Genera el archivo físico
+    // 9. WRITER para el Informe: Genera el archivo físico
     @Bean
     public FlatFileItemWriter<ResumenAnualDTO> writerInforme() {
         return new FlatFileItemWriterBuilder<ResumenAnualDTO>()
@@ -196,7 +196,7 @@ public class EstadosAnualesConfig {
                 .build();
     }
 
-    // 11. STEP de Generación de Informe
+    // 10. STEP de Generación de Informe
     @Bean
     public Step generarReporteStep(JobRepository jobRepository, 
                                    PlatformTransactionManager transactionManager,
@@ -209,7 +209,7 @@ public class EstadosAnualesConfig {
                 .build();
     }
 
-    // 12. JOB FINAL ACTUALIZADO
+    // 11. JOB FINAL ACTUALIZADO
     @Bean
     public Job estadosAnualesJob(JobRepository jobRepository, 
                                  Step masterStep, 

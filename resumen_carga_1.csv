@@ -1,0 +1,1001 @@
+ID_ORIGINAL,FECHA_CSV,ESTADO,DETALLE
+1,2024/03/05,CARGADO,Procesado correctamente
+2,11-12-2024,CARGADO,Procesado correctamente
+3,02/04/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+4,2024/04/27,CARGADO,Procesado correctamente
+5,17-08-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+6,2024-09-26,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+7,2024/01/11,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+8,2024-03-17,CARGADO,Procesado correctamente
+9,2024/04/20,CARGADO,Procesado correctamente
+10,16/04/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+11,2024-04-15,CARGADO,Procesado correctamente
+12,03/06/2024,CARGADO,Procesado correctamente
+13,26-10-2024,CARGADO,Procesado correctamente
+14,2024/11/24,CARGADO,Procesado correctamente
+15,2024-02-14,CARGADO,Procesado correctamente
+16,03-12-2024,CARGADO,Procesado correctamente
+17,21-02-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+18,2024/07/15,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+19,14/08/2024,CARGADO,Procesado correctamente
+20,09/01/2024,CARGADO,Procesado correctamente
+21,16/06/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+22,2024/07/06,CARGADO,Procesado correctamente
+23,2024-10-17,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+24,2024/12/21,CARGADO,Procesado correctamente
+25,2024/03/29,CARGADO,Procesado correctamente
+26,2024/04/29,CARGADO,Procesado correctamente
+27,2024/10/03,CARGADO,Procesado correctamente
+28,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+29,2024/06/02,CARGADO,Procesado correctamente
+30,2024-01-31,CARGADO,Procesado correctamente
+31,2024/05/03,CARGADO,Procesado correctamente
+32,2024/08/07,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+33,16/10/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+34,2024-07-02,CARGADO,Procesado correctamente
+35,27-07-2024,CARGADO,Procesado correctamente
+36,2024/04/16,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+37,2024-02-09,CARGADO,Procesado correctamente
+38,15-10-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+39,26/01/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+40,2024/05/30,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+41,15-08-2024,CARGADO,Procesado correctamente
+42,15/06/2024,CARGADO,Procesado correctamente
+43,22-01-2024,CARGADO,Procesado correctamente
+44,2024/03/14,CARGADO,Procesado correctamente
+45,2024/07/17,CARGADO,Procesado correctamente
+46,05/11/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+47,2024/11/03,CARGADO,Procesado correctamente
+48,31-05-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+49,2024-04-15,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+50,2024/10/08,CARGADO,Procesado correctamente
+51,2024/08/16,CARGADO,Procesado correctamente
+52,2024-09-22,CARGADO,Procesado correctamente
+53,2024/05/22,CARGADO,Procesado correctamente
+54,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+55,10-03-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+56,2024-10-08,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+57,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+58,2024/11/25,CARGADO,Procesado correctamente
+59,2024-08-17,CARGADO,Procesado correctamente
+60,2024/06/25,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+61,01-01-2024,CARGADO,Procesado correctamente
+62,10/04/2024,CARGADO,Procesado correctamente
+63,2024-05-16,CARGADO,Procesado correctamente
+64,2024-02-14,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+65,2024/04/25,CARGADO,Procesado correctamente
+66,07/05/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+67,2024/08/04,CARGADO,Procesado correctamente
+68,2024/03/01,CARGADO,Procesado correctamente
+69,21/12/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+70,16/06/2024,CARGADO,Procesado correctamente
+71,01/05/2024,CARGADO,Procesado correctamente
+72,12/07/2024,CARGADO,Procesado correctamente
+73,2024/08/02,CARGADO,Procesado correctamente
+74,2024-03-06,CARGADO,Procesado correctamente
+75,2024-12-08,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+76,15-07-2024,CARGADO,Procesado correctamente
+77,2024/11/01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+78,2024/04/10,CARGADO,Procesado correctamente
+79,31/08/2024,CARGADO,Procesado correctamente
+80,14-02-2024,CARGADO,Procesado correctamente
+81,25-11-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+82,24/10/2024,CARGADO,Procesado correctamente
+83,16/10/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+84,2024-07-29,CARGADO,Procesado correctamente
+85,2024-01-14,CARGADO,Procesado correctamente
+86,2024/07/11,CARGADO,Procesado correctamente
+87,2024-12-08,CARGADO,Procesado correctamente
+88,2024-06-27,CARGADO,Procesado correctamente
+89,25/03/2024,CARGADO,Procesado correctamente
+90,2024-07-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+91,05-09-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+92,08-02-2024,CARGADO,Procesado correctamente
+93,2024-02-28,CARGADO,Procesado correctamente
+94,09/09/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+95,28-06-2024,CARGADO,Procesado correctamente
+96,2024-12-23,CARGADO,Procesado correctamente
+97,06-06-2024,CARGADO,Procesado correctamente
+98,19-06-2024,CARGADO,Procesado correctamente
+99,08/04/2024,CARGADO,Procesado correctamente
+100,06/11/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+101,2024/05/26,CARGADO,Procesado correctamente
+102,08/11/2024,CARGADO,Procesado correctamente
+103,19/06/2024,CARGADO,Procesado correctamente
+104,2024/12/19,CARGADO,Procesado correctamente
+105,2024/03/10,CARGADO,Procesado correctamente
+106,2024-08-10,CARGADO,Procesado correctamente
+107,20-09-2024,CARGADO,Procesado correctamente
+108,11-09-2024,CARGADO,Procesado correctamente
+109,2024-09-11,CARGADO,Procesado correctamente
+110,07/09/2024,CARGADO,Procesado correctamente
+111,28-03-2024,CARGADO,Procesado correctamente
+112,2024-02-16,CARGADO,Procesado correctamente
+113,15-12-2024,CARGADO,Procesado correctamente
+114,12-10-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+115,2024/10/08,CARGADO,Procesado correctamente
+116,2024-03-09,CARGADO,Procesado correctamente
+117,2024-12-04,CARGADO,Procesado correctamente
+118,2024-09-09,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+119,29-04-2024,CARGADO,Procesado correctamente
+120,04-01-2024,CARGADO,Procesado correctamente
+121,09/11/2024,CARGADO,Procesado correctamente
+122,2024/05/17,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+123,2024/05/01,CARGADO,Procesado correctamente
+124,08/02/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+125,2024-03-11,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+126,04/04/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+127,2024-12-06,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+128,2024-03-27,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+129,2024-07-25,CARGADO,Procesado correctamente
+130,2024-10-09,CARGADO,Procesado correctamente
+131,2024-04-21,CARGADO,Procesado correctamente
+132,2024/04/17,CARGADO,Procesado correctamente
+133,22-04-2024,CARGADO,Procesado correctamente
+134,2024/01/08,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+135,11-05-2024,CARGADO,Procesado correctamente
+136,01/04/2024,CARGADO,Procesado correctamente
+137,2024-05-13,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+138,20/09/2024,CARGADO,Procesado correctamente
+139,2024-01-01,CARGADO,Procesado correctamente
+140,2024-09-20,CARGADO,Procesado correctamente
+141,2024-08-10,CARGADO,Procesado correctamente
+142,2024/04/11,CARGADO,Procesado correctamente
+143,2024-04-09,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+144,27-11-2024,CARGADO,Procesado correctamente
+145,01-02-2024,CARGADO,Procesado correctamente
+146,2024/12/26,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+147,2024/06/13,CARGADO,Procesado correctamente
+148,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+149,23/12/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+150,2024/07/12,CARGADO,Procesado correctamente
+151,2024/04/10,CARGADO,Procesado correctamente
+152,2024/08/29,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+153,2024-04-12,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+154,2024-06-01,CARGADO,Procesado correctamente
+155,2024/12/19,CARGADO,Procesado correctamente
+156,2024-11-21,CARGADO,Procesado correctamente
+157,11/08/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+158,17/03/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+159,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+160,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+161,29-01-2024,CARGADO,Procesado correctamente
+162,2024/10/22,CARGADO,Procesado correctamente
+163,2024-06-20,CARGADO,Procesado correctamente
+164,2024-12-05,CARGADO,Procesado correctamente
+165,07-03-2024,CARGADO,Procesado correctamente
+166,22-02-2024,CARGADO,Procesado correctamente
+167,2024/06/16,CARGADO,Procesado correctamente
+168,20/05/2024,CARGADO,Procesado correctamente
+169,2024/12/28,CARGADO,Procesado correctamente
+170,19-07-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+171,23/09/2024,CARGADO,Procesado correctamente
+172,20/09/2024,CARGADO,Procesado correctamente
+173,12-04-2024,CARGADO,Procesado correctamente
+174,29-03-2024,CARGADO,Procesado correctamente
+175,15-08-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+176,01-09-2024,CARGADO,Procesado correctamente
+177,08/08/2024,CARGADO,Procesado correctamente
+178,2024-10-24,CARGADO,Procesado correctamente
+179,2024/02/17,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+180,19/05/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+181,14-02-2024,CARGADO,Procesado correctamente
+182,14-12-2024,CARGADO,Procesado correctamente
+183,2024/04/11,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+184,2024-09-26,CARGADO,Procesado correctamente
+185,25/06/2024,CARGADO,Procesado correctamente
+186,2024/12/04,CARGADO,Procesado correctamente
+187,18-01-2024,CARGADO,Procesado correctamente
+188,04/09/2024,CARGADO,Procesado correctamente
+189,2024-12-12,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+190,2024-08-10,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+191,2024/12/24,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+192,2024-04-28,CARGADO,Procesado correctamente
+193,02-05-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+194,2024-05-22,CARGADO,Procesado correctamente
+195,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+196,2024/09/05,CARGADO,Procesado correctamente
+197,2024-01-01,CARGADO,Procesado correctamente
+198,15-12-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+199,2024-10-14,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+200,22-07-2024,CARGADO,Procesado correctamente
+201,2024/01/13,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+202,2024-09-02,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+203,12-12-2024,CARGADO,Procesado correctamente
+204,18-01-2024,CARGADO,Procesado correctamente
+205,2024-10-02,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+206,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+207,09/03/2024,CARGADO,Procesado correctamente
+208,16-12-2024,CARGADO,Procesado correctamente
+209,04-02-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+210,21/09/2024,CARGADO,Procesado correctamente
+211,11-10-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+212,2024-03-31,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+213,28-01-2024,CARGADO,Procesado correctamente
+214,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+215,03-06-2024,CARGADO,Procesado correctamente
+216,05/06/2024,CARGADO,Procesado correctamente
+217,2024-12-17,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+218,2024-09-14,CARGADO,Procesado correctamente
+219,15/11/2024,CARGADO,Procesado correctamente
+220,17/03/2024,CARGADO,Procesado correctamente
+221,2024-03-28,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+222,2024-01-07,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+223,2024/03/11,CARGADO,Procesado correctamente
+224,2024/04/21,CARGADO,Procesado correctamente
+225,29-09-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+226,2024/04/23,CARGADO,Procesado correctamente
+227,2024/03/03,CARGADO,Procesado correctamente
+228,2024/03/11,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+229,2024/10/20,CARGADO,Procesado correctamente
+230,20/09/2024,CARGADO,Procesado correctamente
+231,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+232,09-04-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+233,2024/08/29,CARGADO,Procesado correctamente
+234,2024/01/26,CARGADO,Procesado correctamente
+235,2024/08/16,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+236,26/04/2024,CARGADO,Procesado correctamente
+237,16/05/2024,CARGADO,Procesado correctamente
+238,24-04-2024,CARGADO,Procesado correctamente
+239,29/03/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+240,2024-05-08,CARGADO,Procesado correctamente
+241,30-11-2024,CARGADO,Procesado correctamente
+242,2024/11/11,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+243,2024-11-16,CARGADO,Procesado correctamente
+244,2024-02-07,CARGADO,Procesado correctamente
+245,04-08-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+246,2024-02-04,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+247,17-12-2024,CARGADO,Procesado correctamente
+248,2024-06-24,CARGADO,Procesado correctamente
+249,03/09/2024,CARGADO,Procesado correctamente
+250,2024/06/12,CARGADO,Procesado correctamente
+251,12-06-2024,CARGADO,Procesado correctamente
+252,24-12-2024,CARGADO,Procesado correctamente
+253,29/02/2024,CARGADO,Procesado correctamente
+254,2024-04-15,CARGADO,Procesado correctamente
+255,2024/05/15,CARGADO,Procesado correctamente
+256,27-09-2024,CARGADO,Procesado correctamente
+257,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+258,12/10/2024,CARGADO,Procesado correctamente
+259,24/01/2024,CARGADO,Procesado correctamente
+260,2024-12-08,CARGADO,Procesado correctamente
+261,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+262,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+263,2024/02/11,CARGADO,Procesado correctamente
+264,2024/03/07,CARGADO,Procesado correctamente
+265,15/10/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+266,18/10/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+267,2024/05/10,CARGADO,Procesado correctamente
+268,2024/05/22,CARGADO,Procesado correctamente
+269,14/05/2024,CARGADO,Procesado correctamente
+270,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+271,2024-04-06,CARGADO,Procesado correctamente
+272,14/08/2024,CARGADO,Procesado correctamente
+273,2024/06/22,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+274,2024/10/15,CARGADO,Procesado correctamente
+275,02-10-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+276,20/12/2024,CARGADO,Procesado correctamente
+277,19/02/2024,CARGADO,Procesado correctamente
+278,23-11-2024,CARGADO,Procesado correctamente
+279,2024/02/05,CARGADO,Procesado correctamente
+280,2024-04-30,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+281,28-03-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+282,10-06-2024,CARGADO,Procesado correctamente
+283,26-06-2024,CARGADO,Procesado correctamente
+284,2024-07-07,CARGADO,Procesado correctamente
+285,2024-11-01,CARGADO,Procesado correctamente
+286,2024-01-28,CARGADO,Procesado correctamente
+287,2024/06/25,CARGADO,Procesado correctamente
+288,2024-10-01,CARGADO,Procesado correctamente
+289,07/02/2024,CARGADO,Procesado correctamente
+290,17/03/2024,CARGADO,Procesado correctamente
+291,2024-01-05,CARGADO,Procesado correctamente
+292,2024-04-23,CARGADO,Procesado correctamente
+293,2024/04/24,CARGADO,Procesado correctamente
+294,16/05/2024,CARGADO,Procesado correctamente
+295,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+296,21-02-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+297,27/03/2024,CARGADO,Procesado correctamente
+298,15-12-2024,CARGADO,Procesado correctamente
+299,2024/08/07,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+300,2024-11-22,CARGADO,Procesado correctamente
+301,2024/04/25,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+302,19/09/2024,CARGADO,Procesado correctamente
+303,2024/08/08,CARGADO,Procesado correctamente
+304,2024-01-03,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+305,18-01-2024,CARGADO,Procesado correctamente
+306,2024/04/27,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+307,01/04/2024,CARGADO,Procesado correctamente
+308,23-04-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+309,2024-05-17,CARGADO,Procesado correctamente
+310,28/04/2024,CARGADO,Procesado correctamente
+311,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+312,17/10/2024,CARGADO,Procesado correctamente
+313,28-09-2024,CARGADO,Procesado correctamente
+314,20/02/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+315,2024/03/04,CARGADO,Procesado correctamente
+316,2024/03/08,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+317,2024/06/02,CARGADO,Procesado correctamente
+318,2024/02/04,CARGADO,Procesado correctamente
+319,2024-05-30,CARGADO,Procesado correctamente
+320,20/06/2024,CARGADO,Procesado correctamente
+321,2024/01/18,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+322,17-06-2024,CARGADO,Procesado correctamente
+323,2024/03/02,CARGADO,Procesado correctamente
+324,01-10-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+325,19-07-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+326,28/05/2024,CARGADO,Procesado correctamente
+327,2024-01-10,CARGADO,Procesado correctamente
+328,19-04-2024,CARGADO,Procesado correctamente
+329,2024/11/23,CARGADO,Procesado correctamente
+330,2024/06/11,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+331,08/02/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+332,29-12-2024,CARGADO,Procesado correctamente
+333,26-07-2024,CARGADO,Procesado correctamente
+334,2024-12-22,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+335,21-03-2024,CARGADO,Procesado correctamente
+336,18-07-2024,CARGADO,Procesado correctamente
+337,29-11-2024,CARGADO,Procesado correctamente
+338,14/09/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+339,2024-07-18,CARGADO,Procesado correctamente
+340,27/02/2024,CARGADO,Procesado correctamente
+341,11/01/2024,CARGADO,Procesado correctamente
+342,15-12-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+343,28/06/2024,CARGADO,Procesado correctamente
+344,2024-10-02,CARGADO,Procesado correctamente
+345,2024-05-25,CARGADO,Procesado correctamente
+346,29/11/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+347,2024/07/31,CARGADO,Procesado correctamente
+348,01/08/2024,CARGADO,Procesado correctamente
+349,2024/11/10,CARGADO,Procesado correctamente
+350,06/10/2024,CARGADO,Procesado correctamente
+351,09/07/2024,CARGADO,Procesado correctamente
+352,2024/02/02,CARGADO,Procesado correctamente
+353,2024-04-15,CARGADO,Procesado correctamente
+354,2024-11-18,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+355,2024-06-25,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+356,2024-08-12,CARGADO,Procesado correctamente
+357,01-04-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+358,07/02/2024,CARGADO,Procesado correctamente
+359,2024-04-29,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+360,05/03/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+361,2024-07-20,CARGADO,Procesado correctamente
+362,16/03/2024,CARGADO,Procesado correctamente
+363,2024-03-07,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+364,30/01/2024,CARGADO,Procesado correctamente
+365,2024/02/20,CARGADO,Procesado correctamente
+366,29/09/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+367,22/10/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+368,25/08/2024,CARGADO,Procesado correctamente
+369,05-09-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+370,2024-10-18,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+371,2024-07-15,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+372,13-12-2024,CARGADO,Procesado correctamente
+373,2024/09/20,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+374,19/09/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+375,29/03/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+376,10/08/2024,CARGADO,Procesado correctamente
+377,03-08-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+378,2024-01-11,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+379,16-05-2024,CARGADO,Procesado correctamente
+380,14-01-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+381,2024-03-11,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+382,17-04-2024,CARGADO,Procesado correctamente
+383,2024/03/22,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+384,04-03-2024,CARGADO,Procesado correctamente
+385,2024/09/19,CARGADO,Procesado correctamente
+386,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+387,01-11-2024,CARGADO,Procesado correctamente
+388,2024-03-13,CARGADO,Procesado correctamente
+389,2024-08-30,CARGADO,Procesado correctamente
+390,2024/01/26,CARGADO,Procesado correctamente
+391,2024/04/02,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+392,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+393,2024/11/13,CARGADO,Procesado correctamente
+394,06-03-2024,CARGADO,Procesado correctamente
+395,30-01-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+396,2024-10-14,CARGADO,Procesado correctamente
+397,2024/12/26,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+398,2024-11-13,CARGADO,Procesado correctamente
+399,2024/05/27,CARGADO,Procesado correctamente
+400,09/01/2024,CARGADO,Procesado correctamente
+401,2024/07/18,CARGADO,Procesado correctamente
+402,2024-04-10,CARGADO,Procesado correctamente
+403,2024-12-09,CARGADO,Procesado correctamente
+404,2024/11/09,CARGADO,Procesado correctamente
+405,2024-08-24,CARGADO,Procesado correctamente
+406,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+407,2024/08/18,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+408,02-10-2024,CARGADO,Procesado correctamente
+409,04/03/2024,CARGADO,Procesado correctamente
+410,05-10-2024,CARGADO,Procesado correctamente
+411,01-11-2024,CARGADO,Procesado correctamente
+412,24/08/2024,CARGADO,Procesado correctamente
+413,2024-06-02,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+414,06/01/2024,CARGADO,Procesado correctamente
+415,2024-10-26,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+416,06-06-2024,CARGADO,Procesado correctamente
+417,27/01/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+418,19/10/2024,CARGADO,Procesado correctamente
+419,29-12-2024,CARGADO,Procesado correctamente
+420,2024/03/24,CARGADO,Procesado correctamente
+421,2024-03-03,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+422,2024/03/09,CARGADO,Procesado correctamente
+423,2024/01/13,CARGADO,Procesado correctamente
+424,09/03/2024,CARGADO,Procesado correctamente
+425,2024-06-19,CARGADO,Procesado correctamente
+426,2024-08-13,CARGADO,Procesado correctamente
+427,2024/01/18,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+428,12-08-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+429,29-04-2024,CARGADO,Procesado correctamente
+430,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+431,2024/02/26,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+432,2024-05-23,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+433,30-01-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+434,2024/11/21,CARGADO,Procesado correctamente
+435,13-06-2024,CARGADO,Procesado correctamente
+436,27-07-2024,CARGADO,Procesado correctamente
+437,2024-04-06,CARGADO,Procesado correctamente
+438,27-08-2024,CARGADO,Procesado correctamente
+439,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+440,2024-10-13,CARGADO,Procesado correctamente
+441,17/07/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+442,18/07/2024,CARGADO,Procesado correctamente
+443,2024/01/07,CARGADO,Procesado correctamente
+444,2024-07-05,CARGADO,Procesado correctamente
+445,2024-10-15,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+446,2024-12-06,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+447,04-07-2024,CARGADO,Procesado correctamente
+448,08-06-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+449,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+450,08/05/2024,CARGADO,Procesado correctamente
+451,27-02-2024,CARGADO,Procesado correctamente
+452,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+453,2024-05-22,CARGADO,Procesado correctamente
+454,2024/02/19,CARGADO,Procesado correctamente
+455,2024/02/05,CARGADO,Procesado correctamente
+456,2024-05-31,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+457,2024-01-08,CARGADO,Procesado correctamente
+458,15-02-2024,CARGADO,Procesado correctamente
+459,2024-06-22,CARGADO,Procesado correctamente
+460,2024/04/22,CARGADO,Procesado correctamente
+461,2024-08-28,CARGADO,Procesado correctamente
+462,2024-04-26,CARGADO,Procesado correctamente
+463,2024-11-25,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+464,30/01/2024,CARGADO,Procesado correctamente
+465,2024-06-18,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+466,2024/07/08,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+467,2024-12-19,CARGADO,Procesado correctamente
+468,2024-10-13,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+469,29-03-2024,CARGADO,Procesado correctamente
+470,06-08-2024,CARGADO,Procesado correctamente
+471,05-10-2024,CARGADO,Procesado correctamente
+472,18-03-2024,CARGADO,Procesado correctamente
+473,07/11/2024,CARGADO,Procesado correctamente
+474,2024-09-05,CARGADO,Procesado correctamente
+475,2024-09-07,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+476,05-09-2024,CARGADO,Procesado correctamente
+477,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+478,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+479,2024/02/15,CARGADO,Procesado correctamente
+480,26/11/2024,CARGADO,Procesado correctamente
+481,2024-08-09,CARGADO,Procesado correctamente
+482,17/12/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+483,22/04/2024,CARGADO,Procesado correctamente
+484,12/08/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+485,2024/08/04,CARGADO,Procesado correctamente
+486,2024/06/06,CARGADO,Procesado correctamente
+487,11-05-2024,CARGADO,Procesado correctamente
+488,2024/02/05,CARGADO,Procesado correctamente
+489,09-05-2024,CARGADO,Procesado correctamente
+490,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+491,2024/10/04,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+492,20/05/2024,CARGADO,Procesado correctamente
+493,2024-06-02,CARGADO,Procesado correctamente
+494,04/11/2024,CARGADO,Procesado correctamente
+495,06/11/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+496,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+497,2024/05/27,CARGADO,Procesado correctamente
+498,20/12/2024,CARGADO,Procesado correctamente
+499,2024/02/12,CARGADO,Procesado correctamente
+500,2024-06-01,CARGADO,Procesado correctamente
+501,13-07-2024,CARGADO,Procesado correctamente
+502,04/12/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+503,22/02/2024,CARGADO,Procesado correctamente
+504,2024-11-04,CARGADO,Procesado correctamente
+505,08/05/2024,CARGADO,Procesado correctamente
+506,2024/01/19,CARGADO,Procesado correctamente
+507,15-05-2024,CARGADO,Procesado correctamente
+508,2024-04-18,CARGADO,Procesado correctamente
+509,01-09-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+510,2024-03-20,CARGADO,Procesado correctamente
+511,24-05-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+512,2024/05/17,CARGADO,Procesado correctamente
+513,2024/11/07,CARGADO,Procesado correctamente
+514,24/11/2024,CARGADO,Procesado correctamente
+515,28/01/2024,CARGADO,Procesado correctamente
+516,2024/08/19,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+517,2024/09/20,CARGADO,Procesado correctamente
+518,21-10-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+519,28/04/2024,CARGADO,Procesado correctamente
+520,12-11-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+521,2024/07/20,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+522,03-06-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+523,09/10/2024,CARGADO,Procesado correctamente
+524,23-04-2024,CARGADO,Procesado correctamente
+525,02/03/2024,CARGADO,Procesado correctamente
+526,08-12-2024,CARGADO,Procesado correctamente
+527,2024-05-20,CARGADO,Procesado correctamente
+528,2024/01/11,CARGADO,Procesado correctamente
+529,2024/06/08,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+530,24/09/2024,CARGADO,Procesado correctamente
+531,2024-08-25,CARGADO,Procesado correctamente
+532,28-10-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+533,2024-04-28,CARGADO,Procesado correctamente
+534,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+535,14/08/2024,CARGADO,Procesado correctamente
+536,12/08/2024,CARGADO,Procesado correctamente
+537,22/05/2024,CARGADO,Procesado correctamente
+538,24-09-2024,CARGADO,Procesado correctamente
+539,2024/07/03,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+540,03-03-2024,CARGADO,Procesado correctamente
+541,2024/05/11,CARGADO,Procesado correctamente
+542,2024-07-10,CARGADO,Procesado correctamente
+543,2024/12/03,CARGADO,Procesado correctamente
+544,2024/02/08,CARGADO,Procesado correctamente
+545,28/01/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+546,18-12-2024,CARGADO,Procesado correctamente
+547,2024/08/09,CARGADO,Procesado correctamente
+548,2024-09-29,CARGADO,Procesado correctamente
+549,2024/04/24,CARGADO,Procesado correctamente
+550,01-09-2024,CARGADO,Procesado correctamente
+551,05-01-2024,CARGADO,Procesado correctamente
+552,2024/08/23,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+553,29/09/2024,CARGADO,Procesado correctamente
+554,25-04-2024,CARGADO,Procesado correctamente
+555,04/04/2024,CARGADO,Procesado correctamente
+556,24-05-2024,CARGADO,Procesado correctamente
+557,06/01/2024,CARGADO,Procesado correctamente
+558,2024-07-12,CARGADO,Procesado correctamente
+559,01/11/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+560,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+561,25/09/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+562,2024/05/06,CARGADO,Procesado correctamente
+563,2024-06-19,CARGADO,Procesado correctamente
+564,2024-05-06,CARGADO,Procesado correctamente
+565,23/10/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+566,26/08/2024,CARGADO,Procesado correctamente
+567,12-11-2024,CARGADO,Procesado correctamente
+568,19/05/2024,CARGADO,Procesado correctamente
+569,2024-02-27,CARGADO,Procesado correctamente
+570,2024-09-02,CARGADO,Procesado correctamente
+571,12-11-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+572,03/11/2024,CARGADO,Procesado correctamente
+573,2024-04-07,CARGADO,Procesado correctamente
+574,2024-06-11,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+575,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+576,01/04/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+577,03/02/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+578,10/02/2024,CARGADO,Procesado correctamente
+579,2024/01/04,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+580,2024-11-27,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+581,2024/01/19,CARGADO,Procesado correctamente
+582,2024-02-29,CARGADO,Procesado correctamente
+583,2024-04-04,CARGADO,Procesado correctamente
+584,2024-09-29,CARGADO,Procesado correctamente
+585,2024-10-25,CARGADO,Procesado correctamente
+586,2024-04-22,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+587,2024/08/07,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+588,31/01/2024,CARGADO,Procesado correctamente
+589,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+590,2024/05/13,CARGADO,Procesado correctamente
+591,2024/07/07,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+592,26-06-2024,CARGADO,Procesado correctamente
+593,2024-08-01,CARGADO,Procesado correctamente
+594,2024/03/05,CARGADO,Procesado correctamente
+595,2024-07-14,CARGADO,Procesado correctamente
+596,2024-01-20,CARGADO,Procesado correctamente
+597,2024/10/05,CARGADO,Procesado correctamente
+598,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+599,2024-06-21,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+600,14/07/2024,CARGADO,Procesado correctamente
+601,19/10/2024,CARGADO,Procesado correctamente
+602,2024/10/16,CARGADO,Procesado correctamente
+603,02/11/2024,CARGADO,Procesado correctamente
+604,09/01/2024,CARGADO,Procesado correctamente
+605,2024-07-12,CARGADO,Procesado correctamente
+606,27/07/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+607,17-10-2024,CARGADO,Procesado correctamente
+608,2024/05/06,CARGADO,Procesado correctamente
+609,2024/09/15,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+610,10/08/2024,CARGADO,Procesado correctamente
+611,22/07/2024,CARGADO,Procesado correctamente
+612,2024-12-09,CARGADO,Procesado correctamente
+613,17-07-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+614,2024-12-06,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+615,16/05/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+616,08-05-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+617,15/05/2024,CARGADO,Procesado correctamente
+618,17/02/2024,CARGADO,Procesado correctamente
+619,10/12/2024,CARGADO,Procesado correctamente
+620,2024-11-06,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+621,15-02-2024,CARGADO,Procesado correctamente
+622,2024/09/11,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+623,18-04-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+624,2024-12-17,CARGADO,Procesado correctamente
+625,22-05-2024,CARGADO,Procesado correctamente
+626,07/01/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+627,21/03/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+628,2024-09-26,CARGADO,Procesado correctamente
+629,2024/11/09,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+630,2024-01-10,CARGADO,Procesado correctamente
+631,14/10/2024,CARGADO,Procesado correctamente
+632,2024/06/26,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+633,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+634,07/11/2024,CARGADO,Procesado correctamente
+635,20/11/2024,CARGADO,Procesado correctamente
+636,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+637,2024-07-30,CARGADO,Procesado correctamente
+638,2024/09/13,CARGADO,Procesado correctamente
+639,16-05-2024,CARGADO,Procesado correctamente
+640,2024/05/16,CARGADO,Procesado correctamente
+641,2024-10-03,CARGADO,Procesado correctamente
+642,15-11-2024,CARGADO,Procesado correctamente
+643,16/03/2024,CARGADO,Procesado correctamente
+644,2024-12-17,CARGADO,Procesado correctamente
+645,2024/12/22,CARGADO,Procesado correctamente
+646,23/08/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+647,2024/10/18,CARGADO,Procesado correctamente
+648,2024-10-03,CARGADO,Procesado correctamente
+649,2024-10-26,CARGADO,Procesado correctamente
+650,2024/10/17,CARGADO,Procesado correctamente
+651,23-08-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+652,2024/02/18,CARGADO,Procesado correctamente
+653,26/02/2024,CARGADO,Procesado correctamente
+654,31-10-2024,CARGADO,Procesado correctamente
+655,2024/12/29,CARGADO,Procesado correctamente
+656,05-03-2024,CARGADO,Procesado correctamente
+657,13-04-2024,CARGADO,Procesado correctamente
+658,15/09/2024,CARGADO,Procesado correctamente
+659,03/02/2024,CARGADO,Procesado correctamente
+660,01-02-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+661,14-01-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+662,30-08-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+663,2024/06/08,CARGADO,Procesado correctamente
+664,2024-04-25,CARGADO,Procesado correctamente
+665,19-06-2024,CARGADO,Procesado correctamente
+666,2024-06-18,CARGADO,Procesado correctamente
+667,2024/04/28,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+668,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+669,06/05/2024,CARGADO,Procesado correctamente
+670,2024/11/13,CARGADO,Procesado correctamente
+671,2024/09/17,CARGADO,Procesado correctamente
+672,01/06/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+673,20-11-2024,CARGADO,Procesado correctamente
+674,14-03-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+675,2024/11/05,CARGADO,Procesado correctamente
+676,2024/01/20,CARGADO,Procesado correctamente
+677,2024/09/17,CARGADO,Procesado correctamente
+678,07/12/2024,CARGADO,Procesado correctamente
+679,2024/10/05,CARGADO,Procesado correctamente
+680,07-01-2024,CARGADO,Procesado correctamente
+681,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+682,10/12/2024,CARGADO,Procesado correctamente
+683,2024-12-22,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+684,11/11/2024,CARGADO,Procesado correctamente
+685,2024/12/20,CARGADO,Procesado correctamente
+686,23-06-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+687,2024/04/05,CARGADO,Procesado correctamente
+688,2024-12-09,CARGADO,Procesado correctamente
+689,02/06/2024,CARGADO,Procesado correctamente
+690,2024-02-16,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+691,01/06/2024,CARGADO,Procesado correctamente
+692,2024-12-06,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+693,2024-03-13,CARGADO,Procesado correctamente
+694,2024-06-25,CARGADO,Procesado correctamente
+695,2024-10-20,CARGADO,Procesado correctamente
+696,12/03/2024,CARGADO,Procesado correctamente
+697,04/11/2024,CARGADO,Procesado correctamente
+698,2024/07/25,CARGADO,Procesado correctamente
+699,09/04/2024,CARGADO,Procesado correctamente
+700,06-06-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+701,14-02-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+702,25-11-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+703,06-09-2024,CARGADO,Procesado correctamente
+704,2024-04-15,CARGADO,Procesado correctamente
+705,2024/06/05,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+706,09-11-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+707,19/02/2024,CARGADO,Procesado correctamente
+708,2024-05-19,CARGADO,Procesado correctamente
+709,2024/02/21,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+710,11-03-2024,CARGADO,Procesado correctamente
+711,2024/03/01,CARGADO,Procesado correctamente
+712,2024/05/04,CARGADO,Procesado correctamente
+713,05-06-2024,CARGADO,Procesado correctamente
+714,2024-01-10,CARGADO,Procesado correctamente
+715,24/10/2024,CARGADO,Procesado correctamente
+716,2024/11/29,CARGADO,Procesado correctamente
+717,2024/07/08,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+718,04-07-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+719,2024/12/13,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+720,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+721,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+722,15-02-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+723,2024/03/14,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+724,2024-03-10,CARGADO,Procesado correctamente
+725,05-04-2024,CARGADO,Procesado correctamente
+726,26-03-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+727,2024/07/05,CARGADO,Procesado correctamente
+728,28/11/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+729,2024/07/25,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+730,07/02/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+731,04-07-2024,CARGADO,Procesado correctamente
+732,2024/06/17,CARGADO,Procesado correctamente
+733,2024-09-14,CARGADO,Procesado correctamente
+734,2024/04/06,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+735,17/06/2024,CARGADO,Procesado correctamente
+736,24-02-2024,CARGADO,Procesado correctamente
+737,27/03/2024,CARGADO,Procesado correctamente
+738,2024-10-10,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+739,2024/08/21,CARGADO,Procesado correctamente
+740,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+741,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+742,06/09/2024,CARGADO,Procesado correctamente
+743,02/07/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+744,29/11/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+745,2024-06-05,CARGADO,Procesado correctamente
+746,2024/02/06,CARGADO,Procesado correctamente
+747,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+748,2024/12/24,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+749,12/04/2024,CARGADO,Procesado correctamente
+750,18-12-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+751,26-09-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+752,2024/08/05,CARGADO,Procesado correctamente
+753,2024-06-30,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+754,2024-10-24,CARGADO,Procesado correctamente
+755,2024-09-16,CARGADO,Procesado correctamente
+756,2024-06-15,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+757,2024/11/13,CARGADO,Procesado correctamente
+758,2024-02-22,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+759,03-03-2024,CARGADO,Procesado correctamente
+760,07-04-2024,CARGADO,Procesado correctamente
+761,2024-10-16,CARGADO,Procesado correctamente
+762,05-04-2024,CARGADO,Procesado correctamente
+763,25/10/2024,CARGADO,Procesado correctamente
+764,2024-11-23,CARGADO,Procesado correctamente
+765,2024-01-17,CARGADO,Procesado correctamente
+766,24/08/2024,CARGADO,Procesado correctamente
+767,2024/10/05,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+768,2024-09-23,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+769,14/05/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+770,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+771,2024/06/17,CARGADO,Procesado correctamente
+772,08-10-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+773,24/10/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+774,09-04-2024,CARGADO,Procesado correctamente
+775,20/06/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+776,2024/02/23,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+777,30/03/2024,CARGADO,Procesado correctamente
+778,15-08-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+779,10-07-2024,CARGADO,Procesado correctamente
+780,13-05-2024,CARGADO,Procesado correctamente
+781,11-12-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+782,2024-08-27,CARGADO,Procesado correctamente
+783,2024/10/26,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+784,2024-12-09,CARGADO,Procesado correctamente
+785,08-10-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+786,2024-11-03,CARGADO,Procesado correctamente
+787,2024-12-05,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+788,2024/12/13,CARGADO,Procesado correctamente
+789,01-07-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+790,14/04/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+791,06-12-2024,CARGADO,Procesado correctamente
+792,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+793,2024-01-03,CARGADO,Procesado correctamente
+794,20/05/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+795,11-11-2024,CARGADO,Procesado correctamente
+796,12-02-2024,CARGADO,Procesado correctamente
+797,28-08-2024,CARGADO,Procesado correctamente
+798,03-04-2024,CARGADO,Procesado correctamente
+799,2024-01-07,CARGADO,Procesado correctamente
+800,02-04-2024,CARGADO,Procesado correctamente
+801,07-06-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+802,2024/01/20,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+803,2024/05/06,CARGADO,Procesado correctamente
+804,2024/06/14,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+805,2024/03/06,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+806,09/09/2024,CARGADO,Procesado correctamente
+807,2024/09/26,CARGADO,Procesado correctamente
+808,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+809,2024/09/29,CARGADO,Procesado correctamente
+810,08/02/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+811,2024/05/04,CARGADO,Procesado correctamente
+812,2024/08/22,CARGADO,Procesado correctamente
+813,07/09/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+814,2024-08-22,CARGADO,Procesado correctamente
+815,2024/01/02,CARGADO,Procesado correctamente
+816,2024/06/22,CARGADO,Procesado correctamente
+817,2024-03-17,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+818,2024/09/14,CARGADO,Procesado correctamente
+819,2024/03/23,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+820,2024/07/08,CARGADO,Procesado correctamente
+821,2024-12-27,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+822,06-02-2024,CARGADO,Procesado correctamente
+823,2024/01/31,CARGADO,Procesado correctamente
+824,21-04-2024,CARGADO,Procesado correctamente
+825,2024-04-22,CARGADO,Procesado correctamente
+826,2024/10/25,CARGADO,Procesado correctamente
+827,27-08-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+828,2024/12/10,CARGADO,Procesado correctamente
+829,24/11/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+830,22/10/2024,CARGADO,Procesado correctamente
+831,2024-05-20,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+832,2024-03-13,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+833,2024/11/28,CARGADO,Procesado correctamente
+834,03-01-2024,CARGADO,Procesado correctamente
+835,30-10-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+836,13/03/2024,CARGADO,Procesado correctamente
+837,29-07-2024,CARGADO,Procesado correctamente
+838,2024/06/24,CARGADO,Procesado correctamente
+839,2024/07/26,CARGADO,Procesado correctamente
+840,03/11/2024,CARGADO,Procesado correctamente
+841,2024-12-08,CARGADO,Procesado correctamente
+842,03-06-2024,CARGADO,Procesado correctamente
+843,2024-07-12,CARGADO,Procesado correctamente
+844,10/03/2024,CARGADO,Procesado correctamente
+845,2024/07/27,CARGADO,Procesado correctamente
+846,13/01/2024,CARGADO,Procesado correctamente
+847,14/03/2024,CARGADO,Procesado correctamente
+848,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+849,28/06/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+850,2024/11/15,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+851,27-08-2024,CARGADO,Procesado correctamente
+852,15/01/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+853,2024/12/04,CARGADO,Procesado correctamente
+854,2024/10/17,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+855,17-12-2024,CARGADO,Procesado correctamente
+856,2024/10/30,CARGADO,Procesado correctamente
+857,13/03/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+858,14-10-2024,CARGADO,Procesado correctamente
+859,11-09-2024,CARGADO,Procesado correctamente
+860,30/04/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+861,2024/11/12,CARGADO,Procesado correctamente
+862,2024-03-05,CARGADO,Procesado correctamente
+863,26-03-2024,CARGADO,Procesado correctamente
+864,2024/08/04,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+865,30/01/2024,CARGADO,Procesado correctamente
+866,04/02/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+867,2024/08/26,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+868,2024-01-27,CARGADO,Procesado correctamente
+869,29/10/2024,CARGADO,Procesado correctamente
+870,31/05/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+871,2024/12/24,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+872,2024-08-08,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+873,2024-12-12,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+874,2024/07/31,CARGADO,Procesado correctamente
+875,2024-11-27,CARGADO,Procesado correctamente
+876,10/09/2024,CARGADO,Procesado correctamente
+877,2024/10/14,CARGADO,Procesado correctamente
+878,2024/07/27,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+879,2024-09-02,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+880,11/05/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+881,2024-01-01,CARGADO,Procesado correctamente
+882,23/02/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+883,25/03/2024,CARGADO,Procesado correctamente
+884,2024-12-16,CARGADO,Procesado correctamente
+885,2024-09-01,CARGADO,Procesado correctamente
+886,2024/07/09,CARGADO,Procesado correctamente
+887,04/10/2024,CARGADO,Procesado correctamente
+888,22/01/2024,CARGADO,Procesado correctamente
+889,2024/02/01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+890,27/08/2024,CARGADO,Procesado correctamente
+891,2024/01/12,CARGADO,Procesado correctamente
+892,2024-05-01,CARGADO,Procesado correctamente
+893,2024-04-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+894,2024/07/09,CARGADO,Procesado correctamente
+895,17/07/2024,CARGADO,Procesado correctamente
+896,26-10-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+897,08-10-2024,CARGADO,Procesado correctamente
+898,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+899,2024-01-13,CARGADO,Procesado correctamente
+900,2024-02-29,CARGADO,Procesado correctamente
+901,02-03-2024,CARGADO,Procesado correctamente
+902,03-05-2024,CARGADO,Procesado correctamente
+903,13/02/2024,CARGADO,Procesado correctamente
+904,05/05/2024,CARGADO,Procesado correctamente
+905,2024-12-23,CARGADO,Procesado correctamente
+906,2024-03-17,CARGADO,Procesado correctamente
+907,2024-08-28,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+908,2024-07-05,CARGADO,Procesado correctamente
+909,11-06-2024,CARGADO,Procesado correctamente
+910,06/06/2024,CARGADO,Procesado correctamente
+911,2024-08-22,CARGADO,Procesado correctamente
+912,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+913,2024/01/07,CARGADO,Procesado correctamente
+914,2024/03/12,CARGADO,Procesado correctamente
+915,2024/02/02,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+916,23/08/2024,CARGADO,Procesado correctamente
+917,2024-07-10,CARGADO,Procesado correctamente
+918,2024/07/31,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+919,29/05/2024,CARGADO,Procesado correctamente
+920,2024/08/23,CARGADO,Procesado correctamente
+921,14-02-2024,CARGADO,Procesado correctamente
+922,2024-11-02,CARGADO,Procesado correctamente
+923,2024/09/22,CARGADO,Procesado correctamente
+924,2024/01/09,CARGADO,Procesado correctamente
+925,18/12/2024,CARGADO,Procesado correctamente
+926,20-11-2024,CARGADO,Procesado correctamente
+927,2024-10-18,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+928,26-09-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+929,2024-11-17,CARGADO,Procesado correctamente
+930,2024-04-12,CARGADO,Procesado correctamente
+931,23/09/2024,CARGADO,Procesado correctamente
+932,2024-10-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+933,2024-07-19,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+934,2024/12/28,CARGADO,Procesado correctamente
+935,2024/05/25,CARGADO,Procesado correctamente
+936,26/03/2024,CARGADO,Procesado correctamente
+937,2024-11-11,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+938,30-09-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+939,2024/04/17,CARGADO,Procesado correctamente
+940,07-03-2024,CARGADO,Procesado correctamente
+941,25/08/2024,CARGADO,Procesado correctamente
+942,2024/07/25,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+943,2024-10-14,CARGADO,Procesado correctamente
+944,2024/06/29,CARGADO,Procesado correctamente
+945,21-09-2024,CARGADO,Procesado correctamente
+946,06-08-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+947,15-08-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+948,2024/05/31,CARGADO,Procesado correctamente
+949,23-08-2024,CARGADO,Procesado correctamente
+950,05/10/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+951,2024/08/20,CARGADO,Procesado correctamente
+952,2024-10-12,CARGADO,Procesado correctamente
+953,2024/06/11,CARGADO,Procesado correctamente
+954,2024-02-28,CARGADO,Procesado correctamente
+955,2024/09/05,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+956,2024-10-29,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+957,2024-09-19,CARGADO,Procesado correctamente
+958,18-12-2024,CARGADO,Procesado correctamente
+959,24/08/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+960,28-12-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+961,2024/12/11,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+962,05-10-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+963,03/01/2024,CARGADO,Procesado correctamente
+964,2024/12/16,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+965,2024/03/18,CARGADO,Procesado correctamente
+966,2024-11-19,CARGADO,Procesado correctamente
+967,2024/08/22,CARGADO,Procesado correctamente
+968,2024-02-02,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+969,2024-03-26,CARGADO,Procesado correctamente
+970,2024/01/12,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+971,19-02-2024,CARGADO,Procesado correctamente
+972,15-05-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+973,2024/05/23,CARGADO,Procesado correctamente
+974,2024/07/25,CARGADO,Procesado correctamente
+975,2024-05-26,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+976,2024-10-25,CARGADO,Procesado correctamente
+977,27/03/2024,CARGADO,Procesado correctamente
+978,2024-09-07,CARGADO,Procesado correctamente
+979,01/07/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+980,2024-08-11,CARGADO,Procesado correctamente
+981,02/02/2024,CARGADO,Procesado correctamente
+982,2024-07-21,CARGADO,Procesado correctamente
+983,31/03/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+984,22/07/2024,CARGADO,Procesado correctamente
+985,06/04/2024,CARGADO,Procesado correctamente
+986,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+987,2024-01-09,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+988,2024-13-01,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+989,2024/07/01,CARGADO,Procesado correctamente
+990,2024-10-18,CARGADO,Procesado correctamente
+991,15-05-2024,CARGADO,Procesado correctamente
+992,2024/03/25,CARGADO,Procesado correctamente
+993,01-05-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+994,2024-06-30,CARGADO,Procesado correctamente
+995,2024/05/03,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+996,24/10/2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+997,09-02-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+998,30-03-2024,RECHAZADO,Datos inválidos o inconsistentes (Monto negativo/Fecha errónea)
+999,2024-01-30,CARGADO,Procesado correctamente
+1000,2024/08/20,CARGADO,Procesado correctamente

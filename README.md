@@ -33,7 +33,8 @@ finance-batch/
 │   │   ├── Movimiento.java
 │   │   ├── MovimientoDTO.java
 │   │   ├── EstadoFinanciero.java
-│   │   └── EstadoFinancieroDTO.java
+│   │   ├── EstadoFinancieroDTO.java
+│   │   └── ResumenAnualDTO.java   # DTO para informe consolidado
 │   ├── items/                 # Procesadores y Readers
 │   │   ├── CuentaItemProcessor.java
 │   │   ├── MovimientoItemProcessor.java
@@ -52,12 +53,14 @@ finance-batch/
 │   │   ├── InteresesConfig.java
 │   │   └── EstadosAnualesConfig.java
 │   └── FinanceBatchApplication.java
-└── src/main/resources/
-    ├── data/                  # Archivos CSV de entrada
-    │   ├── movimientos_financieros_diarios.csv
-    │   ├── intereses_trimestrales.csv
-    │   └── estados_financieros_anuales.csv
-    └── application.properties
+├── src/main/resources/
+│   ├── data/                  # Archivos CSV de entrada
+│   │   ├── movimientos_financieros_diarios.csv
+│   │   ├── intereses_trimestrales.csv
+│   │   └── estados_financieros_anuales.csv
+│   └── application.properties
+└── outputs/                   # Reportes consolidados generados
+    └── reporte_auditoria_anual.csv
 ```
 
 ## Jobs Disponibles
@@ -111,12 +114,12 @@ Calcula y aplica intereses sobre cuentas bancarias según su tipo.
 
 ### 3. Estados Financieros Anuales (estadosAnualesJob)
 
-Procesa estados financieros anuales utilizando **particionamiento paralelo** para mejorar el rendimiento.
+Procesa estados financieros anuales utilizando **particionamiento paralelo** y genera un **informe de auditoría consolidado** por cuenta.
 
 **Características:**
 - **Archivo entrada**: `estados_financieros_anuales.csv`
 - **Estructura CSV**: `cuenta_id,fecha,transaccion,monto,descripcion`
-- **Chunk size**: 10 registros por partición
+- **Chunk size**: 10 registros por partición (carga), 100 registros (informe)
 - **Particiones**: 4 (procesamiento paralelo)
 - **Hilos concurrentes**: 4
 - **Validaciones**:
@@ -124,15 +127,35 @@ Procesa estados financieros anuales utilizando **particionamiento paralelo** par
   - Descarta fechas inválidas
   - Soporta múltiples formatos de fecha
 - **Salida**: Tabla `estados_financieros` en PostgreSQL
-- **Auditoría**: `reporte_anual_{jobId}.csv`
+- **Auditoría por registro**: `reporte_anual_{jobId}.csv`
+- **Informe consolidado**: `outputs/reporte_auditoria_anual.csv`
 
-**Arquitectura de particionamiento:**
+**Flujo del Job (2 Steps):**
 ```
-Master Step
-    ├── Partición 0 (Worker Thread 1) → Registros 0-249
-    ├── Partición 1 (Worker Thread 2) → Registros 250-499
-    ├── Partición 2 (Worker Thread 3) → Registros 500-749
-    └── Partición 3 (Worker Thread 4) → Registros 750-999
+estadosAnualesJob
+    │
+    ├── Step 1: masterStep (Carga paralela de CSV)
+    │       ├── Partición 0 (Worker Thread 1) → Registros 0-N
+    │       ├── Partición 1 (Worker Thread 2) → Registros N-M
+    │       ├── Partición 2 (Worker Thread 3) → Registros M-P
+    │       └── Partición 3 (Worker Thread 4) → Registros P-Total
+    │
+    └── Step 2: generarReporteStep (Informe de Auditoría)
+            └── Lee de BD → Agrupa por cuenta_id → Genera CSV
+```
+
+**Informe de Auditoría Consolidado:**
+
+El segundo step consulta la base de datos y genera un reporte agregado con:
+- Total de montos por cuenta
+- Cantidad de transacciones por cuenta
+- Estado de auditoría
+
+**Estructura del informe** (`outputs/reporte_auditoria_anual.csv`):
+```csv
+ID_CUENTA,TOTAL_ANUAL,TOTAL_TXS,ESTADO_AUDITORIA
+201,15450.00,12,Informe Anual de Auditoría - Generado exitosamente
+202,8320.50,8,Informe Anual de Auditoría - Generado exitosamente
 ```
 
 ## Configuración
@@ -265,7 +288,7 @@ cuenta_id,fecha,transaccion,monto,descripcion
 
 ## Archivos de Auditoría Generados
 
-Cada job genera un archivo CSV de auditoría en el directorio raíz del proyecto:
+Cada job genera archivos CSV de auditoría. Los reportes de detalle se generan en el directorio raíz, mientras que los informes consolidados se generan en `outputs/`:
 
 ### resumen_carga_{jobId}.csv (Movimientos Diarios)
 ```csv
@@ -281,12 +304,28 @@ ID_CUENTA,TIPO,ESTADO,DETALLE
 102,unknown,DESCARTADO,Datos inconsistentes (Tipo)
 ```
 
-### reporte_anual_{jobId}.csv (Estados Financieros)
+### reporte_anual_{jobId}.csv (Estados Financieros - Detalle)
 ```csv
 CUENTA_ID,FECHA,ESTADO,DESCRIPCION
 201,2024-01-15,CARGADO,Compra en supermercado
 202,2024/13/45,ERROR_DATOS,Fecha inválida
 ```
+
+### outputs/reporte_auditoria_anual.csv (Estados Financieros - Consolidado)
+
+Informe agregado generado después del procesamiento, con totales por cuenta:
+```csv
+ID_CUENTA,TOTAL_ANUAL,TOTAL_TXS,ESTADO_AUDITORIA
+201,15450.00,12,Informe Anual de Auditoría - Generado exitosamente
+202,8320.50,8,Informe Anual de Auditoría - Generado exitosamente
+```
+
+| Campo | Descripción |
+|-------|-------------|
+| ID_CUENTA | Identificador de la cuenta |
+| TOTAL_ANUAL | Suma de todos los montos de la cuenta |
+| TOTAL_TXS | Cantidad de transacciones procesadas |
+| ESTADO_AUDITORIA | Mensaje de estado del informe |
 
 ## Características Técnicas Avanzadas
 
@@ -307,8 +346,9 @@ Todos los jobs están configurados con tolerancia a fallos:
   - Rollback parcial en caso de errores
   - Mejor rendimiento en grandes volúmenes
 
-### Particionamiento Paralelo (Solo Estados Anuales)
+### Particionamiento Paralelo y Generación de Informes (Solo Estados Anuales)
 
+**Step 1 - Carga Particionada:**
 - **Grid Size**: 4 particiones
 - **Concurrency Limit**: 4 hilos simultáneos
 - **Particionador**: Dinámico basado en tamaño del archivo
@@ -316,6 +356,15 @@ Todos los jobs están configurados con tolerancia a fallos:
   - Reducción significativa del tiempo de procesamiento
   - Mejor utilización de recursos del servidor
   - Escalabilidad horizontal
+
+**Step 2 - Generación de Informe:**
+- **Fuente**: Consulta SQL agregada desde `estados_financieros`
+- **Query**: `SELECT cuenta_id, SUM(monto), COUNT(*) FROM estados_financieros GROUP BY cuenta_id`
+- **Chunk size**: 100 registros
+- **Salida**: `outputs/reporte_auditoria_anual.csv`
+- **Ventajas**:
+  - Informe consolidado automático post-procesamiento
+  - Totales y conteo por cuenta para auditoría
 
 ### Validaciones Multi-capa
 
@@ -399,4 +448,4 @@ Project Link: [https://github.com/tu-usuario/finance-batch](https://github.com/t
 
 ---
 
-Desarrollado con Spring Batch Framework | 2024
+Desarrollado con Spring Batch Framework | 2024-2026
