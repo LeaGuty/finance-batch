@@ -444,7 +444,7 @@ Este proyecto es parte del sistema Finance Batch desarrollado para procesamiento
 
 Finance Batch System - Sistema de Procesamiento Batch Financiero
 
-Project Link: [https://github.com/tu-usuario/finance-batch](https://github.com/tu-usuario/finance-batch)
+Project Link: [https://github.com/LeaGuty/finance-batch](https://github.com/LeaGuty/finance-batch)
 
 ---
 
