@@ -1,5 +1,7 @@
 package cl.duoc.finance_batch.repository;
 
+import java.util.Optional;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
@@ -21,4 +23,5 @@ import cl.duoc.finance_batch.business.Cuenta;
  */
 @Repository
 public interface CuentaRepository extends JpaRepository<Cuenta, Long> {
+    Optional<Cuenta> findByCuentaId(Long cuentaId);
 }

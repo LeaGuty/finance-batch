@@ -1,9 +1,9 @@
 package cl.duoc.finance_batch.repository;
 
+import cl.duoc.finance_batch.business.EstadoFinanciero;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-
-import cl.duoc.finance_batch.business.EstadoFinanciero;
+import java.util.List;
 
 /**
  * Repositorio JPA para la entidad EstadoFinanciero.
@@ -24,4 +24,6 @@ import cl.duoc.finance_batch.business.EstadoFinanciero;
  */
 @Repository
 public interface EstadoFinancieroRepository extends JpaRepository<EstadoFinanciero, Long> {
+
+    List<EstadoFinanciero> findByCuentaId(Long cuentaId);
 }
