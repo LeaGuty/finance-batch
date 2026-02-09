@@ -1,6 +1,6 @@
 # Finance Batch - Sistema de Procesamiento Batch Financiero
 
-Sistema de procesamiento batch para operaciones financieras utilizando Spring Batch Framework. Implementa tres jobs principales para el procesamiento automatizado de movimientos financieros, cálculo de intereses y generación de estados financieros.
+Sistema de procesamiento batch para operaciones financieras utilizando Spring Batch Framework. Implementa tres jobs principales para el procesamiento automatizado de movimientos financieros, cálculo de intereses y generación de estados financieros. Además, expone una **API REST protegida con JWT** para consultar los datos procesados.
 
 ## Características Principales
 
@@ -11,13 +11,21 @@ Sistema de procesamiento batch para operaciones financieras utilizando Spring Ba
 - **Procesamiento Paralelo**: Particionamiento para mejorar el rendimiento
 - **Soporte Multi-formato**: Parseo de fechas en múltiples formatos
 - **Persistencia JPA**: Almacenamiento en PostgreSQL
+- **API REST**: Endpoints para consulta de cuentas y transacciones
+- **Seguridad JWT**: Autenticación stateless con tokens JWT (HS512)
+- **Gestión de Secretos**: Clave JWT configurable vía archivo `.env`
 
 ## Tecnologías Utilizadas
 
-- **Java 17+**
-- **Spring Boot 3.x**
+- **Java 21**
+- **Spring Boot 3.5.x**
 - **Spring Batch 5.x**
+- **Spring Web (REST)**
+- **Spring Security**
 - **Spring Data JPA**
+- **Spring Actuator**
+- **JWT (jjwt 0.11.5)**
+- **java-dotenv**
 - **PostgreSQL**
 - **Lombok**
 - **Maven**
@@ -52,6 +60,13 @@ finance-batch/
 │   │   ├── ReporteDiarioConfig.java
 │   │   ├── InteresesConfig.java
 │   │   └── EstadosAnualesConfig.java
+│   ├── controller/            # API REST
+│   │   └── FinanceRestController.java
+│   ├── config/                # Configuración de seguridad
+│   │   └── SecurityConfig.java
+│   ├── security/              # Componentes JWT
+│   │   ├── JwtFilter.java
+│   │   └── JwtUtil.java
 │   └── FinanceBatchApplication.java
 ├── src/main/resources/
 │   ├── data/                  # Archivos CSV de entrada
@@ -59,6 +74,7 @@ finance-batch/
 │   │   ├── intereses_trimestrales.csv
 │   │   └── estados_financieros_anuales.csv
 │   └── application.properties
+├── .env                       # Variables de entorno (JWT_SECRET)
 └── outputs/                   # Reportes consolidados generados
     └── reporte_auditoria_anual.csv
 ```
@@ -158,6 +174,77 @@ ID_CUENTA,TOTAL_ANUAL,TOTAL_TXS,ESTADO_AUDITORIA
 202,8320.50,8,Informe Anual de Auditoría - Generado exitosamente
 ```
 
+## API REST
+
+La aplicación expone endpoints REST para consultar los datos procesados por los jobs batch. Todos los endpoints requieren autenticación JWT.
+
+### Endpoints Disponibles
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| GET | `/api/v1/cuentas/{id}` | Obtener información de una cuenta por `cuentaId` (saldo, tipo, cliente) |
+| GET | `/api/v1/cuentas/{id}/transacciones` | Obtener las transacciones de estados financieros de una cuenta |
+| GET | `/api/v1/ping` | Health check del servicio |
+
+### Ejemplos de Uso
+
+```bash
+# Health check
+curl -H "Authorization: Bearer <token>" http://localhost:8080/api/v1/ping
+
+# Obtener cuenta
+curl -H "Authorization: Bearer <token>" http://localhost:8080/api/v1/cuentas/101
+
+# Obtener transacciones de una cuenta
+curl -H "Authorization: Bearer <token>" http://localhost:8080/api/v1/cuentas/201/transacciones
+```
+
+### Respuestas
+
+- `200 OK`: Datos encontrados
+- `204 No Content`: Lista de transacciones vacía
+- `404 Not Found`: Cuenta no encontrada
+- `401 Unauthorized`: Token JWT ausente o inválido
+
+## Seguridad (JWT)
+
+La API está protegida con autenticación JWT stateless usando Spring Security.
+
+### Arquitectura de Seguridad
+
+```
+Request → JwtFilter → SecurityContext → Controller
+           │
+           ├── Extrae token del header "Authorization: Bearer <token>"
+           ├── Valida firma y expiración con JwtUtil
+           └── Carga UserDetails y autentica en el SecurityContext
+```
+
+### Configuración
+
+- **Algoritmo**: HS512
+- **Expiración**: 30 minutos
+- **Sesión**: Stateless (sin sesiones en servidor)
+- **CSRF**: Deshabilitado (apropiado para APIs stateless)
+
+### Usuarios Registrados (In-Memory)
+
+| Usuario | Rol | Descripción |
+|---------|-----|-------------|
+| `usuario_web` | CLIENTE_WEB | Cliente de aplicación web |
+| `usuario_movil` | CLIENTE_MOVIL | Cliente de aplicación móvil |
+| `cajero_atm_01` | CAJERO_AUT | Cajero automático |
+
+### Clave Secreta (JWT_SECRET)
+
+La clave de firma se lee desde un archivo `.env` en la raíz del proyecto:
+
+```env
+JWT_SECRET=<clave_base64_encoded>
+```
+
+Si el archivo `.env` no existe, se usa una clave por defecto (solo para desarrollo). El archivo `.env` está excluido del repositorio vía `.gitignore`.
+
 ## Configuración
 
 ### Base de Datos (application.properties)
@@ -176,11 +263,16 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
 # Spring Batch
 spring.batch.jdbc.initialize-schema=always
 
-# Job a ejecutar (descomentar el deseado)
-spring.batch.job.name=calculoInteresesJob
-# spring.batch.job.name=reporteDiarioJob
-# spring.batch.job.name=estadosAnualesJob
+# Deshabilitar ejecución automática de jobs al inicio
+spring.batch.job.enabled=false
+
+# Para ejecutar un job específico al inicio, descomentar la línea deseada:
+#spring.batch.job.name=reporteDiarioJob
+#spring.batch.job.name=calculoInteresesJob
+#spring.batch.job.name=estadosAnualesJob
 ```
+
+> **Nota:** Por defecto los jobs batch no se ejecutan al iniciar la aplicación (`spring.batch.job.enabled=false`). La aplicación inicia como servidor web con la API REST disponible.
 
 ### Esquema de Base de Datos
 
@@ -220,7 +312,7 @@ CREATE TABLE estados_financieros (
 
 ### Requisitos Previos
 
-- Java 17 o superior
+- Java 21 o superior
 - Maven 3.6+
 - PostgreSQL 12+
 
@@ -244,24 +336,35 @@ CREATE DATABASE finance_db;
 mvn clean install
 ```
 
-5. **Preparar archivos CSV**
+5. **Configurar variable de entorno JWT (opcional)**
+
+   Crear un archivo `.env` en la raíz del proyecto:
+   ```env
+   JWT_SECRET=<tu_clave_base64_encoded>
+   ```
+   Si se omite, se usará una clave por defecto (solo para desarrollo).
+
+6. **Preparar archivos CSV**
 
    Colocar los archivos CSV en `src/main/resources/data/`:
    - `movimientos_financieros_diarios.csv`
    - `intereses_trimestrales.csv`
    - `estados_financieros_anuales.csv`
 
-6. **Ejecutar el job deseado**
-
-   Editar `application.properties` para seleccionar el job:
-   ```properties
-   spring.batch.job.name=calculoInteresesJob
-   ```
-
 7. **Iniciar la aplicación**
 ```bash
 mvn spring-boot:run
 ```
+
+   La aplicación inicia como servidor web en `http://localhost:8080` con la API REST disponible. Los jobs batch no se ejecutan automáticamente.
+
+8. **Ejecutar un job específico al inicio (opcional)**
+
+   Editar `application.properties` para habilitar un job:
+   ```properties
+   spring.batch.job.enabled=true
+   spring.batch.job.name=calculoInteresesJob
+   ```
 
 ## Formato de Archivos CSV
 
@@ -418,13 +521,16 @@ Ejemplo de log:
 
 ## Mejoras Futuras
 
+- [x] ~~Integración con sistemas externos vía REST~~ (Implementado: API REST con endpoints de consulta)
+- [x] ~~Seguridad de la API~~ (Implementado: autenticación JWT con Spring Security)
 - [ ] Implementar retry policy para errores transitorios
-- [ ] Agregar métricas con Micrometer
+- [ ] Agregar métricas con Micrometer (Actuator ya incluido)
 - [ ] Implementar notificaciones por email al finalizar jobs
 - [ ] Dashboard web para monitoreo de jobs
 - [ ] Soporte para múltiples formatos de entrada (Excel, JSON)
-- [ ] Integración con sistemas externos via REST
 - [ ] Implementar chunking adaptativo según carga del sistema
+- [ ] Endpoint REST para disparar jobs bajo demanda
+- [ ] Autenticación con base de datos en lugar de in-memory
 
 ## Contribuciones
 
